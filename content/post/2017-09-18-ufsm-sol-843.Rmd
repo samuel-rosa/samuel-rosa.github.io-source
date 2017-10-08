@@ -190,7 +190,7 @@ E também, pelo menos, um dos artigos abaixo:
 
 ## Semana 1, 04-Outubro: Modelos de variação espacial
 
-**Temas**: Variação espacial e fatores que a determinam. Os dois modelos clássicos de explicação da variação espacial, o modelo discreto e o modelo contínuo. Ferramentas gráficas para a análise exploratória espacial de dados. Semivariância e modelos matemáticos do semivariograma empírico.
+**Temas**: A variação espacial e os fatores que a determinam. Introdução à modelagem de dados espaciais. O modelo discreto de explicação da variação espacial. As visões determinística e estocástica do modelo discreto de variação espacial. O modelo contínuo de variação espacial. A visão determinística do modelo contínuo de variação espacial.
 
 **Tarefas para a próxima semana**: 
 
@@ -198,7 +198,21 @@ Segunda versão do texto dissertativo da [primeira tarefa](#tarefa-1).
 
 **Leituras para a próxima semana**:
 
-A definir.
+Leia o seguinte artigo:
+
+* `r cite_text("Webster2000")`
+
+Leia também, pelo menos, um dos artigos a seguir:
+
+* `r cite_text("")`
+* `r cite_text("")`
+* `r cite_text("Heuvelink1996")`
+
+E também, pelo menos, um dos artigos abaixo:
+
+* `r cite_text("")`
+* `r cite_text("")`
+* `r cite_text("")`
 
 ## Semana 2, 11-Outubro: Propriedades dos dados espaciais
 
