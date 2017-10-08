@@ -1,0 +1,22 @@
+/*************************************************
+* Custom css
+ **************************************************/
+
+html {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", "Helvetica", "Arial", sans-serif;
+  font-size: 14px;
+  color: rgba(0,0,0,0.8);
+  line-height: 1.65;
+}
+@media screen and (min-width: 58em) {
+  html {
+    font-size: 18px;
+  }
+}
+
+figcaption:before {
+  font-weight: 700;
+  text-transform: uppercase;
+  content: "Figura " counter(captions) ": ";
+}
+

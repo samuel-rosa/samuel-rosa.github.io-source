@@ -1,0 +1,22 @@
+---
+title: Ensino de Pedometria
+summary: "A Pedometria é uma disciplina recente no Brasil."
+author: Alessandro Samuel-Rosa
+date: '2017-09-18'
+slug: ensino-de-pedometria
+categories: []
+tags: []
+---
+
+A Pedometria é uma disciplina recente no Brasil. Seu avanço qualitativo depende da produção de
+material bibliográfico baseado nos resultados das mais sólidas pesquisas realizadas em todo o mundo. Assim,
+sempre que possível, dedico um pouco de meu tempo ao projeto
+
+* ***Pedologia Quantitativa feita Simples***
+
+Trata-se de um livro sobre pedologia quantitativa, ainda em elaboração, que pode ser acessado gratuitamente em
+http://samuel-rosa.github.io/pedologia-quantitativa/.
+
+Anteriormente, meu maior esforço em termos de ensino de pedologia quantitativa traduziu-se na criação e
+editoração da ***Newsletter da Comissão de Pedometria da Sociedade Brasileira de Ciência do Solo***. As 
+versões publicadas da Newsletter estão disponíveis em https://github.com/samuel-rosa/pedometria.

@@ -1,0 +1,263 @@
+---
+title: 'Modelagem Geoestatística do Ambiente'
+summary: 'UFSM SOL 843: Tópicos em Ciência do Solo'
+author: Alessandro Samuel-Rosa
+date: '`r Sys.Date()`'
+slug: 2017-ufsm-sol-843
+tags:
+  - ensino
+  - pedometria
+  - geoestatística
+  - ufsm
+  - pnpd
+output:
+  blogdown::html_page:
+    toc: true
+# https://aleszu.github.io/digisoc/#grading_and_university_policies
+---
+
+```{r, echo=FALSE, message=FALSE}
+smiley <- emo::ji("smiley") 
+hora_dia <- "seis"
+
+# Inclusão do texto de referências bibliográficas no corpo do documento.
+biblio <- bibtex::read.bib("/home/alessandro/Dropbox/jabref/biblio.bib")
+cite_text <- 
+  function (bibkey) {
+    R.utils::captureOutput(print(biblio[bibkey]), collapse = " ")
+  }
+```
+
+# Descrição Geral
+
+Esse curso irá lhe expor a um conjunto de técnicas modernas para a modelagem de variáveis ambientais incertas. Ele também irá apresentá-lo a referências bibliográficas chave e ao processo inovador de aprendizagem/autoavaliação baseado na continuada reflexão sobre o conhecimento visitado e reconstrução do conhecimento próprio. Embora esse curso o introduzirá à uma série de ferramentas de análise de dados e desenvolvimento integrado, sistemas de gerenciamento de código fonte, aos fundamentos da programação letrada, e às plataformas de divulgação científica, o seu alicerce é a geoestatística: em resumo, estatística aplicada a dados com localização conhecida, sobre a qual será esperado que você demonstre maior domínio a cada tarefa cumprida.
+
+Nós abordaremos muitos tópicos, dentre eles a caracterização dos dados espaciais e ferramentas para sua análise, o estudo de modelos clássicos e modernos de explicação da variação espacial, a descrição de técnicas robustas para estimativa de parâmetros e predição espacial, e a demonstração de procedimentos para avaliação de modelos geoestatísticos. Contudo, na maior parte do tempo, nós estaremos nos preparando para finalmente elaborar um delineamento experiental baseado em simulações geoestatísticas para um estudo de propagação de incerteza que será aplicado ao problema de pesquisa do seu projeto de mestrado/doutorado.
+
+## Identificação do Curso
+
+**Instituição**: Universidade Federal de Santa Maria<br>
+**Unidade**: Programa de Pós-Graduação em Ciência do Solo<br>
+**Código**: SOL 843 (Tópicos em Ciência do Solo)<br>
+**Créditos**: 3 (2 - 1)<br>
+**Carga horária**: 45 horas<br>
+**Nível**: Mestrado/Doutorado<br>
+**Instrutor**: Alessandro Samuel-Rosa
+
+## Calendário de Encontros
+
+**Período**: Primavera 2017<br>
+**Horário**: Quartas-feiras, 9:00-11:30/13:30-17:00<br>
+**Local**: Prédio 42, Sala 3302
+
+ID       | Data        | Carga Horária       | Tema
+-------- | ----------- | ------------------- | ------------------------------------
+Semana 0 | 27-Setembro | (não contabilizada) | Nivelamento ferramental
+Semana 1 | 04-Outubro  | 6 horas             | Variação espacial
+Semana 2 | 11-Outubro  | 6 horas             | Propriedades dos dados espaciais
+Semana 3 | 18-Outubro  | 6 horas             | Modelo linear misto de variação espacial
+Semana 4 | 25-Outubro  | 6 horas             | Predição espacial e validação estatística
+Semana 5 | 01-Novembro | 6 horas             | Simulação espacial e propagação de incerteza
+Semana 6 | 06-Dezembro | 3 horas             | Conclusão do curso
+
+Table: Calendário resumido dos encontros. Veja o [cronograma semanal](#cronograma-semanal) para maiores detalhes sobre as atividades planejadas para cada encontro.
+
+## Objetivos do Curso
+
+Após a conclusão desse curso, você:
+
+* Conhecerá as propriedades dos dados espaciais e dos modelos geoestatísticos usados para descrever a estrutura da variação espacial e fazer predições espaciais.
+* Será capaz de usar modelos geoestatísticos para o estudo da propagação de erros em modelos que são alimentados com dados espaciais.
+
+## Estrutura do Curso
+
+O curso será dividido em três partes. A primeira parte, de caráter teórico-prático, será conduzida de modo parcialmente concentrado, tendo duração de um mês e encontros semanais. Cada encontro semanal ocorrerá em dia único e terá duração de `r hora_dia` horas. Os encontros serão conduzidos pelo instrutor, que fará exposições acerca do conteúdo planejado usando como ferramentas quadro branco, projetor de multimídia e o livro digital [Pedometria Feita Simples](http://samuel-rosa.github.io/pedometria-feita-simples/). Os participantes do curso farão leituras dirigidas antes de cada encontro. (Você terá que ler, pelo menos, dois-três artigos para cada aula `r smiley`) As leituras dirigidas servirão de base para as discussões a serem incitadas pelo instrutor durante o encontros e para desenvolver a [primeira](#tarefa-1) das duas tarefas obrigatórias do curso. Adicionalmente, serão desenvolvidas atividades práticas de resolução de exercícios durante os encontros, para as quais os participantes utilizarão o ambiente R de análise de dados em seus computadores pessoais.
+
+A segunda parte do curso terá duração de um mês e será dedicada ao desenvolvimento da [segunda](#tarefa-2) tarefa obrigatória do curso. Essa tarefa será de aplicação dos conhecimentos visitados durante a primeira parte do curso. As atividades serão realizadas em modo não-presencial, sendo os participantes responsáveis pelos dados e infraestrutura computacional utilizados. Quaisquer dúvidas serão sanadas em reuniões presenciais individuais que serão agendadas conforme a disponibilidade do instrutor.
+
+A terceira e última parte do curso será conduzida em modo presencial. Ela será dedicada à conclusão do curso, quando os resultados da segunda tarefa obrigatória do curso serão apresentados e discutidos pelos participantes.
+
+# Tarefas
+
+O curso envolverá duas tarefas obrigatórias desenvolvidas em sequência. A primeira, de cunho mais teórico/reflexivo, abrangerá a primeira parte do curso. Já a segunda tarefa, de caráter mais prático/objetivo, será desenvolvida na segunda parte do curso.
+
+## Reflexão Iterativa {#tarefa-1}
+
+### Descrição da Tarefa
+
+**Prazo**: 04-Outubro, 11-Outubro, 18-Outubro, 25-Outubro, 01-Novembro
+
+A tarefa de reflexão iterativa, guiada pelo tema gerador descrito [abaixo](#tema-gerador) e pelas leituras dirigidas, será realizada durante todas as cinco semanas que antecedem os encontros planejados para cada uma das cinco unidades descritas no [programa do curso](#programa-do-curso). O produto dessa reflexão será apresentado na forma de texto dissertativo publicado na plataforma [Authorea][authorea] até o dia anterior à cada encontro do curso. (Nós trataremos sobre o Authorea no encontro de [nivelamento ferramental](#semana-zero) 😉) Assim que publicado, o texto dissertativo será divulgado aos colegas do seu campo de pesquisa, convidando-os para que façam comentários sobre suas reflexões. (Por exemplo, os fóruns de discussão da Comissão de Pedometria da Sociedade Brasileira de Ciência do Solo -- pedometria@googlegroups.com -- e de Levantamentos Pedológicos Detalhados -- soil-mapping@googlegroups.com 😉)
+
+[authorea]: https://www.authorea.com/
+
+A partir da segunda semana, a tarefa de reflexão continuará sendo guiada pelo tema gerador e pelas leituras dirigidas, mas passará a ser operada de maneira recursiva, ou seja, levando em conta também o texto dissertativo publicado na semana anterio. Além disso, serão considerados os comentários feitos pelos colegas do seu campo de pesquisa e as discussões conduzidas durante o encontro anterior. Assim, um "novo" texto dissertativo será publicado a cada semana, o qual será uma versão reformulada, corrigida ou expandida do texto dissertativo anterior.
+
+### Tema Gerador {#tema-gerador}
+
+> "[...] beware that uncertainty is not intrinsic to the phenomenon under study: rather it arises from our imperfect knowledge of that phenomenon, it is data-dependent and most importantly model-dependent, that model specifying our prior concept (decisions) about the phenomenon. No model, hence no uncertainty measure, can ever be objective: the point is to accept that limitation and document clearly all aspects of the model."
+
+Motivado pelo trecho acima extraído do livro *Geostatistics for Natural Resources Evaluation*, de Pierre Goovaerts (1997, p.442), reflita sobre os modelos usados para estudar os fenômenos espaciais de interesse em seu campo de pesquisa, considerando aspectos relacionados tanto ao surgimento como aos rumos tomados por esse campo ao longo da história. Concilie sua reflexão com os desenvolvimentos tecnológicos ocorridos desde o surgimento do seu campo de pesquisa e avalie, de maneira crítica, como esses desenvolvimentos tecnológicos o influenciaram, especialmente no que diz respeito à (re)construção das bases teóricas que o definem. O texto deve ser redigido na primeira pessoa do singular e usando voz ativa, seguindo as recomendações das revistas [Nature](http://www.nature.com/authors/author_resources/how_write.html?foxtrotcallback=true) e [Science](http://www.sciencemag.org/site/feature/contribinfo/prep/res/style.xhtml). 
+
+## Propagação de Incerteza {#tarefa-2}
+
+### Descrição da Tarefa
+
+**Prazo**: 06-Dezembro
+
+A tarefa de propagação de incerteza será desenvolvida usando, preferencialmente, dados provenientes do seu projeto de pesquisa (mestrado ou doutorado). Assim que iniciadas as atividades (a partir de 02-Novembro), informações sobre o projeto de pesquisa serão publicadas no mesmo website público usado para o desenvolvimento da [primeira tarefa](#tarefa-1). O processamento e análise dos dados serão feitos usando o R e os pacotes geoestatísticos disponíveis. A documentação das atividades será feita usando um [caderno de anotações do R](http://rmarkdown.rstudio.com/r_notebooks.html). Os dados e código fonte serão organizados e publicados em repositório público com controle de versão (git) no [GitHub](https://github.com/) (nós trataremos sobre o repositório no [encontro de nivelamento](#semana-zero) `r smiley`). Esse repositório terá uma página própria onde versões atualizadas do caderno de anotações serão publicadas, no mínimo, semanalmente. (Tenha em mente que o prazo para desenvolvimento da tarefa é de apenas um mês, o que requer um planejamento rigoroso e metas realistas `r smiley`)
+
+O produto dessa tarefa, a ser entregue até 06-Dezembro, será composto pelo repositório e seu conteúdo. Isso inclui (a) os dados utilizados, (b) o código fonte desenvolvido, e (c) o caderno de anotações com os resultados alcançados. Caso os dados já estejam publicados em repositório público, então basta incluir no repositório o código fonte usado para acesso aos dados.
+
+### Motivação
+
+Os dados utilizados para a resolução do problema de pesquisa de seu projeto (mestrado ou doutorado) são contaminados com erros desconhecidos. Da mesma forma, as decisões tomadas durante seu processamento e modelagem são permeadas por incertezas. A magnitude ou importância das diferentes fontes de erro depende de situação para situação. O avanço na construção do conhecimento em seu campo de pesquisa depende do melhor entendimento dessas fontes de incerteza. Por fim, a aplicação desse conhecimento e utilização eficiente dos produtos gerados por seu campo de pesquisa requer a minimização das incertezas.
+
+A partir do conhecimento visitado durante a primeira fase da disciplina, reavalie o problema de pesquisa de seu projeto e identifique qual é a principal fonte de incerteza. Em seguida, planeje e desenvolva um estudo sobre essa fonte de incerteza. Estabeleça um delineamento experimental baseado em simulações geoestatísticas para avaliar como a incerteza é propagada durante o processamento e análise dos dados. Aponte alternativas viáveis para reduzir a incerteza.
+
+# Programa do Curso {#programa-do-curso}
+
+## Título e Discriminação das Unidades
+
+0. Nivelamento ferramental
+    i. Ambiente de análise de dados (R/RStudio)
+    ii. Controle de versão (git/GitHub)
+    iii. Programação letrada (R Markdown/R Notebook)
+    vi. Divulgação científica (blogdown/Hugo)
+1. Variação espacial
+    i. Natureza da variação espacial
+    ii. Modelo discreto de variação espacial
+    iii. Modelo contínuo de variação espacial
+    iv. Semivariograma -- análise e estimativa
+2. Propriedades dos dados espaciais
+    i. Observações dependentes e preferenciais
+    ii. Resíduos espacialmente correlacionados
+    iii. Processos geradores não-estacionários
+3. Modelo linear misto de variação espacial
+    i. Definição e propriedades
+    ii. Função de covariância Whittle-Matérn
+    iii. Método da máxima verossimilhança restrita
+4. Predição espacial e validação estatística
+    i. Melhor preditor linear não enviesado empírico
+    ii. Amostragem para validação estatística
+    iii. Métricas de qualidade das predições
+5. Simulação espacial e propagação de incerteza
+    i. Predição versus simulação estocástica
+    ii. Simulação sequencial gaussiana
+    iii. Visualização da incerteza e aplicações
+
+## Referências Bibliográficas 
+
+`r cite_text("deGruijterEtAl2006")`
+
+`r cite_text("DiggleEtAl2007")`
+
+`r cite_text("Goovaerts1997")`
+
+`r cite_text("WebsterEtAl2007")`
+
+`r cite_text("ZuurEtAl2009")`
+
+# Cronograma Semanal {#cronograma-semanal}
+
+## Semana 0, 27-Setembro: Nivelamento ferramental {#semana-zero}
+
+**Temas**: Nivelamento ferramental necessários aos participantes para completar as duas tarefas obrigatórias do curso. Introdução ao ambiente [R](https://www.r-project.org/) de análise de dados e ao ambiente [RStudio](https://www.rstudio.com/) de desenvolvimento integrado. (Você precisa ter instalada em seu computador a versão *Preview* do RStudio `r smiley`) Estudo do sistema [git](https://git-scm.com/) de gerenciamento de código fonte e controle de versão distribuído e da plataforma [GitHub](https://github.com/) de hospedagem de código fonte. Apresentação de aspectos da programação letrada e uso da linguagem de marcação [Markdown do R](http://rmarkdown.rstudio.com/) para produção de [cadernos de anotações](http://rmarkdown.rstudio.com/r_notebooks.html). Introdução às plataformas de divulgação científica usando o pacote [blogdown](https://bookdown.org/yihui/blogdown/) para o R e [Hugo](https://gohugo.io/). Apresentação da estrutura do curso.
+
+**Tarefas para a próxima semana**:
+
+Primeira versão do texto dissertativo da [primeira tarefa](#tarefa-1).
+
+**Leituras para a próxima semana**:
+
+Leia o seguinte artigo:
+
+* `r cite_text("WebsterEtAl1968")`
+
+Leia também, pelo menos, um dos artigos a seguir:
+
+* `r cite_text("KuilenburgEtAl1982")`
+* `r cite_text("BregtEtAl1987")`
+* `r cite_text("Hudson1992")`
+* `r cite_text("Heuvelink1996")`
+
+E também, pelo menos, um dos artigos abaixo:
+
+* `r cite_text("BurgessEtAl1980")`
+* `r cite_text("McbratneyEtAl1986")`
+* `r cite_text("JianEtAl1996")`
+* `r cite_text("LarkEtAl1998")`
+
+## Semana 1, 04-Outubro: Modelos de variação espacial
+
+**Temas**: Variação espacial e fatores que a determinam. Os dois modelos clássicos de explicação da variação espacial, o modelo discreto e o modelo contínuo. Ferramentas gráficas para a análise exploratória espacial de dados. Semivariância e modelos matemáticos do semivariograma empírico.
+
+**Tarefas para a próxima semana**: 
+
+Segunda versão do texto dissertativo da [primeira tarefa](#tarefa-1).
+
+**Leituras para a próxima semana**:
+
+A definir.
+
+## Semana 2, 11-Outubro: Propriedades dos dados espaciais
+
+**Temas**: A definir.
+
+**Tarefas para a próxima semana**: 
+
+Terceira versão do texto dissertativo da [primeira tarefa](#tarefa-1).
+
+**Leituras para a próxima semana**:
+
+A definir.
+
+## Semana 3, 18-Outubro: Modelo linear misto de variação espacial
+
+**Temas**: A definir.
+
+**Tarefas para a próxima semana**: 
+
+Quarta versão do texto dissertativo da [primeira tarefa](#tarefa-1).
+
+**Leituras para a próxima semana**:
+
+A definir.
+
+## Semana 4, 25-Outubro: Predição espacial e validação estatística
+
+**Temas**: A definir.
+
+**Tarefas para a próxima semana**: 
+
+Quinta e última versão do texto dissertativo da [primeira tarefa](#tarefa-1).
+
+**Leituras para a próxima semana**:
+
+A definir.
+
+## Semana 5, 01-Novembro: Simulação espacial e propagação de incerteza
+
+**Temas**: A definir.
+
+**Tarefas para o próximo encontro**: 
+
+Repositório com os dados, código fonte, e caderno de anotações com os resultados da [segunda tarefa](#tarefa-2).
+
+## Semana 6, 06-Dezembro: Conclusão do curso
+
+**Temas**: Apresentação dos resultados da tarefa de propagação de incerteza. Avaliação do curso.
+
+# Avaliação dos Participantes
+
+## Critérios
+
+Os participantes serão avaliados quanto à participação durante os encontros e cumprimento das duas atividades obrigatórias do curso dentro do prazo.
+
+Para receber conceito "A" nesse curso, além da entrega dos produtos de cada tarefa dentro do prazo, será necessário:
+
+* Ler dois-três dos artigos recomendados para cada encontro, engajar-se nas discussões incitadas pelo instrutor e demais participantes durante os encontros, e respeitar o ritmo de aprendizado dos participantes do curso que demonstrarem maior dificuldade de compreensão de algum conceito.
+
+* Ter flexibilidade e responsabilidade ao responder os comentários feitos pelos colegas do campo de pesquisa sobre as diferentes versões do texto dissertativo da [primeira tarefa](#tarefa-1) e demonstrar aprimoramento da capacidade de reflexão/abstração ao longo do curso.
+
+* Organizar o repositório no GitHub e o código fonte usado na [segunda tarefa](#tarefa-2) de maneira a garantir a inteira [reprodutibilidade](https://pt.wikipedia.org/wiki/Reprodutibilidade) da tarefa.

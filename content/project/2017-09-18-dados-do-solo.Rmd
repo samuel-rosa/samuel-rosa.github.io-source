@@ -1,0 +1,26 @@
+---
+title: Dados do Solo
+author: Alessandro Samuel-Rosa
+summary: "A ciência do solo já produziu um volume incomensurável de dados."
+date: '2017-09-18'
+slug: dados-do-solo
+categories: []
+tags:
+  - dados-legados
+  - repositório
+  - base-de-dados
+---
+
+A pesquisa pedológica já produziu um volume incomensurável de dados do solo. Muitos desses dados já podem ter
+sido perdidos para sempre pela falta de infraestuturas para seu armazenamento e distribuição. A situação não é
+diferente com os milhares de novos registros produzidos a cada dia que passa. Preocupado com isso, venho 
+desenvolvendo atividades diversas relacionadas à construção de tais infraestruturas, o que deu origem ao 
+projeto
+
+* ***Infraestruturas públicas de dados do solo -- da concepção à distribuição***
+
+Atualmente, as principais atividades desse projeto são:
+
+1. Controle de qualidade do Sistema de Informação de Solos Brasileiros 
+   ([link](https://www.bdsolos.cnptia.embrapa.br/consulta_publica.html));
+2. Construção da Base de Dados Brasileira de Ferro do Solo ([link](http://coral.ufsm.br/febr/))
