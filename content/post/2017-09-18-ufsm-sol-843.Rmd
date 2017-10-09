@@ -170,15 +170,9 @@ O material do encontro está disponível em https://samuel-rosa.github.io/UFSM-S
 
 Primeira versão do texto dissertativo da [primeira tarefa](#tarefa-1):
 
-1. A evolução do mapeamento de solos: paradigmas e qualidade dos mapas de solo [acesso][jean]
-2. Uma retrospectiva da modelagem em solos [acesso][luciano]
-3. O paradigma da ciência do solo e a qualidade das  informações contidas nos mapas de solo [acesso][taciara]
-
-[jean]: https://www.authorea.com/203628/8YpW_1JOXjfiZBIy6TnV7g
-[luciano]: https://www.authorea.com/203514/Xys0MAYo-3VWQUjF4l5Wwg
-[taciara]: https://www.authorea.com/203627/IYYDl4Z2kn_Ha-JUQw9g1Q
-
-**Leituras para a próxima semana**:
+1.1. A evolução do mapeamento de solos: paradigmas e qualidade dos mapas de solo ([acesso][jean])
+2. Uma retrospectiva da modelagem em solos ([acesso][luciano])
+3. O paradigma da ciência do solo e a qualidade das  informações contidas nos mapas de solo ([acesso][taciara])[jLeituras para a próxima semana**:
 
 Leia o seguinte artigo:
 
@@ -208,22 +202,24 @@ O material do encontro está disponível em https://samuel-rosa.github.io/UFSM-S
 
 Segunda versão do texto dissertativo da [primeira tarefa](#tarefa-1):
 
-1. A evolução do mapeamento de solos: paradigmas e qualidade dos mapas de solo [acesso][jean]
-2. Uma retrospectiva da modelagem em solos [acesso][luciano]
-3. O paradigma da ciência do solo e a qualidade das  informações contidas nos mapas de solo [acesso][taciara]
+1.1. A evolução do mapeamento de solos: paradigmas e qualidade dos mapas de solo ([acesso][jean])
+2. Uma retrospectiva da modelagem em solos ([acesso][luciano])
+3. O paradigma da ciência do solo e a qualidade das  informações contidas nos mapas de solo ([acesso][taciara])**[jean]: https://www.authorea.com/203628/8YpW_1JOXjfiZBIy6TnV7g
+[luciano]: https://www.authorea.com/203514/Xys0MAYo-3VWQUjF4l5Wwg
+[taciara]: https://www.authorea.com/203627/IYYDl4Z2kn_Ha-JUQw9g1Q
 
-**Leituras para a próxima semana**:
+Leituras para a próxima semana**:
 
 Leia o seguinte artigo:
 
 * `r cite_text("Webster2000")` <!-- Pressupostos do modelo geoestatístico -->
 
-Leia também, pelo menos, doumos artigos a seguir:
+Leia também, pelo menos, um dos artigos a seguir:
 
 * `r cite_text("McbratneyEtAl1986")` <!-- Semivariograma e funções autorizadas -->
 * `r cite_text("WarrickEtAl1987")` <!-- Amostragem para estimar o modelo do semivariograma -->
 * `r cite_text("Myers1989")` <!-- Estacionaridade -->
-* <!-- `r cite_text("Lark2000a")` <!timadores robustos do variograma -->
+<!-- * `r cite_text("Lark2000a")` Estimadores robustos do variograma -->
 <!-- * `r cite_text("Heuvelink1996")` Modelos de variação espacial -->
 
 ## Semana 2, 11-Outubro: Propriedades dos dados espaciais
