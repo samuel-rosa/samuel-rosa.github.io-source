@@ -21,7 +21,7 @@ smiley <- emo::ji("smiley")
 hora_dia <- "seis"
 
 # Inclusão do texto de referências bibliográficas no corpo do documento.
-biblio <- bibtex::read.bib("/home/alessandro/Dropbox/jabref/biblio.bib")
+biblio <- bibtex::read.bib("~/Dropbox/jabref/biblio.bib")
 cite_text <- 
   function (bibkey) {
     R.utils::captureOutput(print(biblio[bibkey]), collapse = " ")
