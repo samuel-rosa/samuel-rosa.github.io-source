@@ -166,9 +166,15 @@ A partir do conhecimento visitado durante a primeira fase da disciplina, reavali
 
 **Tarefas para a próxima semana**:
 
-Primeira versão do texto dissertativo da [primeira tarefa](#tarefa-1).
+Primeira versão do texto dissertativo da [primeira tarefa](#tarefa-1).):
 
-**Leituras para a próxima semana**:
+1. A evolução do mapeamento de solos: paradigmas e qualidade dos mapas de solo [acesso][jean]
+2. Uma retrospectiva da modelagem em solos [acesso][luciano]
+3. O paradigma da ciência do solo e a qualidade das  informações contidas nos mapas de solo [acesso][taciara]
+
+[jean]: https://www.authorea.com/203628/8YpW_1JOXjfiZBIy6TnV7g
+[luciano]: https://www.authorea.com/203514/Xys0MAYo-3VWQUjF4l5Wwg
+[taciara]: https://www.authorea.com/203627/IYYDl4Z2kn_Ha-JUQw9g1Q**Leituras para a próxima semana**:
 
 Leia o seguinte artigo:
 
@@ -194,8 +200,14 @@ E também, pelo menos, um dos artigos abaixo:
 **Tarefas para a próxima semana**: 
 
 Segunda versão do texto dissertativo da [primeira tarefa](#tarefa-1).
+:1. [Aevolução do mapeamento de solos: paradigmas e qualidade dos mapas de solo]( [acesso][an)
+][2. Uma retrospectiva da modelagem em solos [acesso][luciano]
+3. O paradigma da ciência do solo e a qualidade das  informações contidas nos mapas de solo [acesso][taciara]
+jean]: https://www.authorea.com/203628/8YpW_1JOXjfiZBIy6TnV7g
 
-**Leituras para a próxima semana**:
+*[luciano]: https://www.authorea.com/203514/Xys0MAYo-3VWQUjF4l5Wwg*[taciara]: https://www.authorea.com/203627/IYYDl4Z2kn_Ha-JUQw9g1Q
+
+Leituras para a próxima semana**:
 
 Leia o seguinte artigo:
 
