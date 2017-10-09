@@ -164,15 +164,19 @@ A partir do conhecimento visitado durante a primeira fase da disciplina, reavali
 
 **Temas**: Nivelamento ferramental necessários aos participantes para completar as duas tarefas obrigatórias do curso. Introdução ao ambiente [R](https://www.r-project.org/) de análise de dados e ao ambiente [RStudio](https://www.rstudio.com/) de desenvolvimento integrado. (Você precisa ter instalada em seu computador a versão *Preview* do RStudio `r smiley`) Estudo do sistema [git](https://git-scm.com/) de gerenciamento de código fonte e controle de versão distribuído e da plataforma [GitHub](https://github.com/) de hospedagem de código fonte. Apresentação de aspectos da programação letrada e uso da linguagem de marcação [Markdown do R](http://rmarkdown.rstudio.com/) para produção de [cadernos de anotações](http://rmarkdown.rstudio.com/r_notebooks.html). Introdução à plataforma de divulgação científica [Authorea][authorea]. Apresentação da estrutura do curso.
 
-O material do encontro está disponível em https://samuel-rosa.github.io/UFSM-SOL-843/uni-0
+O material do encontro está disponível em https://samuel-rosa.github.io/UFSM-SOL-843/uni-0.
 
 **Tarefas para a próxima semana**:
 
 Primeira versão do texto dissertativo da [primeira tarefa](#tarefa-1):
 
-1.1. A evolução do mapeamento de solos: paradigmas e qualidade dos mapas de solo ([acesso][jean])
-2. Uma retrospectiva da modelagem em solos ([acesso][luciano])
-3. O paradigma da ciência do solo e a qualidade das  informações contidas nos mapas de solo ([acesso][taciara])[jLeituras para a próxima semana**:
+* [A evolução do mapeamento de solos: paradigmas e qualidade dos mapas de solo ](https://www.authorea.com/203628/8YpW_1JOXjfiZBIy6TnV7g)
+
+* [Uma retrospectiva da modelagem em solos](https://www.authorea.com/203514/Xys0MAYo-3VWQUjF4l5Wwg)
+
+* [O paradigma da ciência do solo e a qualidade das informações contidas nos mapas de solo](https://www.authorea.com/203627/IYYDl4Z2kn_Ha-JUQw9g1Q)
+
+**Leituras para a próxima semana**:
 
 Leia o seguinte artigo:
 
@@ -196,19 +200,19 @@ E também, pelo menos, um dos artigos abaixo:
 
 **Temas**: A variação espacial e os fatores que a determinam. Introdução à modelagem de dados espaciais. O modelo discreto de explicação da variação espacial. As visões determinística e estocástica do modelo discreto de variação espacial. O modelo contínuo de variação espacial. A visão determinística do modelo contínuo de variação espacial.
 
-O material do encontro está disponível em https://samuel-rosa.github.io/UFSM-SOL-843/uni-1
+O material do encontro está disponível em https://samuel-rosa.github.io/UFSM-SOL-843/uni-1.
 
-**Tarefas para a próxima semana**: 
+**Tarefas para a próxima semana**:
 
 Segunda versão do texto dissertativo da [primeira tarefa](#tarefa-1):
 
-1.1. A evolução do mapeamento de solos: paradigmas e qualidade dos mapas de solo ([acesso][jean])
-2. Uma retrospectiva da modelagem em solos ([acesso][luciano])
-3. O paradigma da ciência do solo e a qualidade das  informações contidas nos mapas de solo ([acesso][taciara])**[jean]: https://www.authorea.com/203628/8YpW_1JOXjfiZBIy6TnV7g
-[luciano]: https://www.authorea.com/203514/Xys0MAYo-3VWQUjF4l5Wwg
-[taciara]: https://www.authorea.com/203627/IYYDl4Z2kn_Ha-JUQw9g1Q
+* [A evolução do mapeamento de solos: paradigmas e qualidade dos mapas de solo ](https://www.authorea.com/203628/8YpW_1JOXjfiZBIy6TnV7g)
 
-Leituras para a próxima semana**:
+* [Uma retrospectiva da modelagem em solos](https://www.authorea.com/203514/Xys0MAYo-3VWQUjF4l5Wwg)
+
+* [O paradigma da ciência do solo e a qualidade das  informações contidas nos mapas de solo](https://www.authorea.com/203627/IYYDl4Z2kn_Ha-JUQw9g1Q)
+
+**Leituras para a próxima semana**:
 
 Leia o seguinte artigo:
 
@@ -226,6 +230,8 @@ Leia também, pelo menos, um dos artigos a seguir:
 
 **Temas**: Observações dependentes e preferenciais. Resíduos espacialmente correlacionados. A visão estocástica do modelo contínuo de variação espacial. O processo gerador aleatório e espacialmente autocorrelacionado. Semivariância e modelos matemáticos do semivariograma empírico.
 <!-- A estacionariedade de primeira e segunda ordem. -->
+
+O material do encontro está disponível em https://samuel-rosa.github.io/UFSM-SOL-843/uni-2.
 
 **Tarefas para a próxima semana**: 
 
