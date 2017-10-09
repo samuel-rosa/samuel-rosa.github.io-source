@@ -186,9 +186,8 @@ E também, pelo menos, um dos artigos abaixo:
 * `r cite_text("BurgessEtAl1980")`
 * `r cite_text("McbratneyEtAl1986")`
 * `r cite_text("JianEtAl1996")`
-* `r cite_text("LarkEtAl1998")`
-
-## Semana 1, 04-Outubro: Modelos de variação espacial
+* * `r cite_text("LarkEtAl1998")`
+# Semana 1, 04-Outubro: Modelos de variação espacial
 
 **Temas**: A variação espacial e os fatores que a determinam. Introdução à modelagem de dados espaciais. O modelo discreto de explicação da variação espacial. As visões determinística e estocástica do modelo discreto de variação espacial. O modelo contínuo de variação espacial. A visão determinística do modelo contínuo de variação espacial.
 
@@ -202,19 +201,15 @@ Leia o seguinte artigo:
 
 * `r cite_text("Webster2000")`
 
-Leia também, pelo menos, um dos artigos a seguir:
+Leia também, pelo menos, umdoisos artigos a seguir:
 
-* `r cite_text("")`
-* `r cite_text("")`
+* `r cite_text("")BurgessEtAl1980")`
+* `r cite_text("McbratneyEtAl1986")`
+* `r cite_text("deGruijterEtAl1990")`
 * `r cite_text("Heuvelink1996")`
-
-E também, pelo menos, um dos artigos abaixo:
-
-* `r cite_text("")`
-* `r cite_text("")`
 * `r cite_text("")`
 
-## Semana 2, 11-Outubro: Propriedades dos dados espaciais
+ Semana 2, 11-Outubro: Propriedades dos dados espaciais
 
 **Temas**: A definir.
 
