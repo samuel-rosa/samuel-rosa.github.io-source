@@ -162,7 +162,7 @@ A partir do conhecimento visitado durante a primeira fase da disciplina, reavali
 
 ## Semana 0, 27-Setembro: Nivelamento ferramental {#semana-zero}
 
-**Temas**: Nivelamento ferramental necessários aos participantes para completar as duas tarefas obrigatórias do curso. Introdução ao ambiente [R](https://www.r-project.org/) de análise de dados e ao ambiente [RStudio](https://www.rstudio.com/) de desenvolvimento integrado. (Você precisa ter instalada em seu computador a versão *Preview* do RStudio `r smiley`) Estudo do sistema [git](https://git-scm.com/) de gerenciamento de código fonte e controle de versão distribuído e da plataforma [GitHub](https://github.com/) de hospedagem de código fonte. Apresentação de aspectos da programação letrada e uso da linguagem de marcação [Markdown do R](http://rmarkdown.rstudio.com/) para produção de [cadernos de anotações](http://rmarkdown.rstudio.com/r_notebooks.html). Introdução às plataformas de divulgação científica usando o pacote [blogdown](https://bookdown.org/yihui/blogdown/) para o R e [Hugo](https://gohugo.io/). Apresentação da estrutura do curso.
+**Temas**: Nivelamento ferramental necessários aos participantes para completar as duas tarefas obrigatórias do curso. Introdução ao ambiente [R](https://www.r-project.org/) de análise de dados e ao ambiente [RStudio](https://www.rstudio.com/) de desenvolvimento integrado. (Você precisa ter instalada em seu computador a versão *Preview* do RStudio `r smiley`) Estudo do sistema [git](https://git-scm.com/) de gerenciamento de código fonte e controle de versão distribuído e da plataforma [GitHub](https://github.com/) de hospedagem de código fonte. Apresentação de aspectos da programação letrada e uso da linguagem de marcação [Markdown do R](http://rmarkdown.rstudio.com/) para produção de [cadernos de anotações](http://rmarkdown.rstudio.com/r_notebooks.html). Introdução à plataforma de divulgação científica [Authorea][authorea]. Apresentação da estrutura do curso.
 
 **Tarefas para a próxima semana**:
 
@@ -216,7 +216,7 @@ Segunda versão do texto dissertativo da [primeira tarefa](#tarefa-1):
 
 Leia o seguinte artigo:
 
-* `r cite_text("Webster2000")` <!-- SoPressupostos do modelo geoestatístico->
+* `r cite_text("Webster2000")` <!-- Pressupostos do modelo geoestatístico -->
 
 Leia também, pelo menos, dois dos artigos a seguir:
 
@@ -227,11 +227,14 @@ Leia também, pelo menos, dois dos artigos a seguir:
 
 ## Semana 2, 11-Outubro: Propriedades dos dados espaciais
 
-**Temas**: Observações dependentes e preferenciais. Resíduos espacialmente correlacionados. O A visão estocástica do modelo contínuo de variação espacial. processo gerador aleatório e espacialmente autocorrelacionado. A Semivariância e modelos matemáticos do semivariograma empírico.*<!-- A estacionariedade de primeira e segunda ordem. -->*
-Tarefas para a próxima semana**: 
+**Temas**: Observações dependentes e preferenciais. Resíduos espacialmente correlacionados. A visão estocástica do modelo contínuo de variação espacial. O processo gerador aleatório e espacialmente autocorrelacionado. Semivariância e modelos matemáticos do semivariograma empírico.
+<!-- A estacionariedade de primeira e segunda ordem. -->
+
+**Tarefas para a próxima semana**: 
 
 Terceira versão do texto dissertativo da [primeira tarefa](#tarefa-1).
-.**Leituras para a próxima semana**:
+
+**Leituras para a próxima semana**:
 
 A definir.
 
