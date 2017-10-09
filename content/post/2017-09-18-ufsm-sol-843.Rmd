@@ -216,7 +216,7 @@ Segunda versão do texto dissertativo da [primeira tarefa](#tarefa-1):
 
 Leia o seguinte artigo:
 
-* `r cite_text("Webster2000")` <!-- Solo e aleatoriedade -->
+* `r cite_text("Webster2000")` <!-- SoPressupostos do modelo geoestatístico->
 
 Leia também, pelo menos, dois dos artigos a seguir:
 
@@ -227,13 +227,11 @@ Leia também, pelo menos, dois dos artigos a seguir:
 
 ## Semana 2, 11-Outubro: Propriedades dos dados espaciais
 
-**Temas**: A definir.
-
-**Tarefas para a próxima semana**: 
+**Temas**: Observações dependentes e preferenciais. Resíduos espacialmente correlacionados. O A visão estocástica do modelo contínuo de variação espacial. processo gerador aleatório e espacialmente autocorrelacionado. A Semivariância e modelos matemáticos do semivariograma empírico.*<!-- A estacionariedade de primeira e segunda ordem. -->*
+Tarefas para a próxima semana**: 
 
 Terceira versão do texto dissertativo da [primeira tarefa](#tarefa-1).
-
-**Leituras para a próxima semana**:
+.**Leituras para a próxima semana**:
 
 A definir.
 
