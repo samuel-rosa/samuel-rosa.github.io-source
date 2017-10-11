@@ -243,6 +243,12 @@ Leia o seguinte artigo:
 
 * `r cite_text("HeuvelinkEtAl2001")` <!-- Modelos de variação espacial e temporal -->
 
+Leia também, pelo menos, um dos artigos a seguir:
+
+* `r cite_text("Lark2000")` <!-- Máxima verossimilhança -->
+* `r cite_text("MinasnyEtAl2005")` <!-- Função de covariância Matérn -->
+* `r cite_text("HenglEtAl2007b")` <!-- Regressão krigagem -->
+
 ## Semana 3, 18-Outubro: Modelo linear misto de variação espacial
 
 **Temas**: A definir.
