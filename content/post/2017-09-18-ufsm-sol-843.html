@@ -1,21 +1,5 @@
----
-title: 'Modelagem Geoestatística do Ambiente'
-summary: 'UFSM SOL 843: Tópicos em Ciência do Solo'
-author: Alessandro Samuel-Rosa
-date: '2017-10-09'
-slug: 2017-ufsm-sol-843
-tags:
-  - ensino
-  - pedometria
-  - geoestatística
-  - ufsm
-  - pnpd
-output:
-  blogdown::html_page:
-    toc: true
-# https://aleszu.github.io/digisoc/#grading_and_university_policies
----
-
+<!-- BLOGDOWN-HEAD -->
+<!-- /BLOGDOWN-HEAD -->
 
 <div id="TOC">
 <ul>
@@ -43,7 +27,8 @@ output:
 <li><a href="#semana-zero">Semana 0, 27-Setembro: Nivelamento ferramental</a></li>
 <li><a href="#semana-1-04-outubro-modelos-de-variacao-espacial">Semana 1, 04-Outubro: Modelos de variação espacial</a></li>
 <li><a href="#semana-2-11-outubro-propriedades-dos-dados-espaciais">Semana 2, 11-Outubro: Propriedades dos dados espaciais</a></li>
-<li><a href="#semana-3-18-outubro-modelo-linear-misto-de-variacao-espacial">Semana 3, 18-Outubro: Modelo linear misto de variação espacial</a></li>
+</ul></li>
+<li><a href="#hengl-t-heuvelink-gbm-and-rossiter-dg-2007.-about-regression-kriging-from-equations-to-case-studies.-computers-geosciences-3310-pp.1301-1315.-issn-0098-3004-doi-10.1016j.cageo.2007.05.001-url-httpdoi.org10.1016j.cageo.2007.05.001.">* Hengl T, Heuvelink GBM and Rossiter DG (2007). “About regression-kriging: from equations to case studies.” <em>Computers &amp; Geosciences</em>, <em>33</em>(10), pp. 1301-1315. ISSN 0098-3004, doi: 10.1016/j.cageo.2007.05.001 (URL: <a href="http://doi.org/10.1016/j.cageo.2007.05.001" class="uri">http://doi.org/10.1016/j.cageo.2007.05.001</a>). <!-- Regressão krigagem --></a><ul>
 <li><a href="#semana-4-25-outubro-predicao-espacial-e-validacao-estatistica">Semana 4, 25-Outubro: Predição espacial e validação estatística</a></li>
 <li><a href="#semana-5-01-novembro-simulacao-espacial-e-propagacao-de-incerteza">Semana 5, 01-Novembro: Simulação espacial e propagação de incerteza</a></li>
 <li><a href="#semana-6-06-dezembro-conclusao-do-curso">Semana 6, 06-Dezembro: Conclusão do curso</a></li>
@@ -291,15 +276,21 @@ output:
 <ul>
 <li>Heuvelink GBM and Webster R (2001). “Modelling soil variation: past, present, and future.” <em>Geoderma</em>, <em>100</em>(3-4), pp. 269-301. ISSN 0016-7061, doi: 10.1016/S0016-7061(01)00025-8 (URL: <a href="http://doi.org/10.1016/S0016-7061(01)00025-8" class="uri">http://doi.org/10.1016/S0016-7061(01)00025-8</a>). <!-- Modelos de variação espacial e temporal --></li>
 </ul>
+<p>Leia também, pelo menos, um dos artigos a seguir:</p>
+<ul>
+<li>Lark RM (2000). “Estimating variograms of soil properties by the method-of-moments and maximum likelihood.” <em>European Journal of Soil Science</em>, <em>51</em>, pp. 717-728. doi: 10.1046/j.1365-2389.2000.00345.x (URL: <a href="http://doi.org/10.1046/j.1365-2389.2000.00345.x" class="uri">http://doi.org/10.1046/j.1365-2389.2000.00345.x</a>). <!-- Máxima verossimilhança --></li>
+<li>Minasny B and McBratney AB (2005). “The Matérn function as a general model for soil variograms.” <em>Geoderma</em>, <em>128</em>(3), pp. 192-207. doi: 10.1016/j.geoderma.2005.04.003 (URL: <a href="http://doi.org/10.1016/j.geoderma.2005.04.003" class="uri">http://doi.org/10.1016/j.geoderma.2005.04.003</a>). <!-- Função de covariância Matérn --></li>
+</ul>
 </div>
-<div id="semana-3-18-outubro-modelo-linear-misto-de-variacao-espacial" class="section level2">
-<h2>Semana 3, 18-Outubro: Modelo linear misto de variação espacial</h2>
+</div>
+<div id="hengl-t-heuvelink-gbm-and-rossiter-dg-2007.-about-regression-kriging-from-equations-to-case-studies.-computers-geosciences-3310-pp.1301-1315.-issn-0098-3004-doi-10.1016j.cageo.2007.05.001-url-httpdoi.org10.1016j.cageo.2007.05.001." class="section level1">
+<h1>* Hengl T, Heuvelink GBM and Rossiter DG (2007). “About regression-kriging: from equations to case studies.” <em>Computers &amp; Geosciences</em>, <em>33</em>(10), pp. 1301-1315. ISSN 0098-3004, doi: 10.1016/j.cageo.2007.05.001 (URL: <a href="http://doi.org/10.1016/j.cageo.2007.05.001" class="uri">http://doi.org/10.1016/j.cageo.2007.05.001</a>). <!-- Regressão krigagem --></h1>
+<p>Semana 3, 18-Outubro: Modelo linear misto de variação espacial</p>
 <p><strong>Temas</strong>: A definir.</p>
 <p><strong>Tarefas para a próxima semana</strong>:</p>
 <p>Quarta versão do texto dissertativo da <a href="#tarefa-1">primeira tarefa</a>.</p>
 <p><strong>Leituras para a próxima semana</strong>:</p>
 <p>A definir.</p>
-</div>
 <div id="semana-4-25-outubro-predicao-espacial-e-validacao-estatistica" class="section level2">
 <h2>Semana 4, 25-Outubro: Predição espacial e validação estatística</h2>
 <p><strong>Temas</strong>: A definir.</p>
