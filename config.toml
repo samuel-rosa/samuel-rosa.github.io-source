@@ -100,13 +100,13 @@ defaultContentLanguageInSubdir = false
   #   The language can be edited below.
   #   For multi-lingual sites, copy this block to each language section at the end of this file.
   publication_types = [
-    'Uncategorized',  # 0
-    'Conference proceedings',  # 1
-    'Journal',  # 2
-    'Work in progress',  # 3
-    'Technical report',  # 4
-    'Book',  # 5
-    'Book chapter'  # 6
+    'Não categorizado',       # 0
+    'Anais de evento',        # 1
+    'Revista científica',     # 2
+    'Trabalho em andamento',  # 3
+    'Relatório técnico',      # 4
+    'Livro',                  # 5
+    'Capítulo de livro'       # 6
   ]
 
   # Social/Academic Networking
