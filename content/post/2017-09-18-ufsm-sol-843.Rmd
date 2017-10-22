@@ -298,7 +298,11 @@ Leia também, pelo menos, um dos artigos a seguir:
 
 ## Semana 4, 25-Outubro: Predição espacial e validação estatística
 
-**Temas**: A definir.
+**Temas**: O melhor preditor linear não enviesado empírico. Krigagem simples, ordinária e universal. Funções 
+de covariância e os pesos da krigagem. Variância do erro de predição. Suporte de predição. Validação 
+estatística de predições espaciais. Validação cruzada.
+
+O material do encontro está disponível em https://samuel-rosa.github.io/UFSM-SOL-843/uni-4.
 
 ### Tarefas para a próxima semana {-} 
 
@@ -310,7 +314,16 @@ Quinta e última versão do texto dissertativo da [primeira tarefa](#tarefa-1):
 
 ### Leituras para a próxima semana {-}
 
-A definir.
+Leia o seguinte artigo:
+
+* `r cite_text("")` <!--  -->
+
+Leia também, pelo menos, um dos artigos a seguir:
+
+* `r cite_text("")` <!--  -->
+* `r cite_text("")` <!--  -->
+* `r cite_text("")` <!--  -->
+* `r cite_text("")` <!--  -->
 
 ## Semana 5, 01-Novembro: Simulação espacial e propagação de incerteza
 
