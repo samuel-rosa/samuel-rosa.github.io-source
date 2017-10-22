@@ -209,7 +209,10 @@ E também, pelo menos, um dos artigos abaixo:
 
 ## Semana 1, 04-Outubro: Modelos de variação espacial
 
-**Temas**: A variação espacial e os fatores que a determinam. Introdução à modelagem de dados espaciais. O modelo discreto de explicação da variação espacial. As visões determinística e estocástica do modelo discreto de variação espacial. O modelo contínuo de variação espacial. A visão determinística do modelo contínuo de variação espacial.
+**Temas**: A variação espacial e os fatores que a determinam. Introdução à modelagem de dados espaciais. O 
+modelo discreto de explicação da variação espacial. As visões determinística e estocástica do modelo discreto 
+de variação espacial. O modelo contínuo de variação espacial. A visão determinística do modelo contínuo de 
+variação espacial.
 
 O material do encontro está disponível em https://samuel-rosa.github.io/UFSM-SOL-843/uni-1.
 
@@ -264,7 +267,13 @@ Leia também, pelo menos, um dos artigos a seguir:
 
 ## Semana 3, 18-Outubro: Modelo linear misto de variação espacial
 
-**Temas**: A definir.
+**Temas**: Definição de dado geoestatístico. Especificação do modelo linear misto de variação espacial. O 
+modelo Gaussiano e seus parâmetros. Modelos do variograma experimental e funções de covariância. A função de 
+covariância Whittle-Matérn. O método dos momentos e a estimativa de parâmetros do modelos do variograma. O 
+método da máxima verossimilhança (MV) e da máxima verossimilhança restrita (MVR), e a estimativa de parâmetros
+de funções de covariância.
+
+O material do encontro está disponível em https://samuel-rosa.github.io/UFSM-SOL-843/uni-3.
 
 ### Tarefas para a próxima semana {-} 
 
@@ -276,7 +285,16 @@ Quarta versão do texto dissertativo da [primeira tarefa](#tarefa-1):
 
 ### Leituras para a próxima semana {-}
 
-A definir.
+Leia o seguinte artigo:
+
+* `r cite_text("Lark2012")` <!-- Modelo linear misto de variação espacial na ciência do solo -->
+
+Leia também, pelo menos, um dos artigos a seguir:
+
+* `r cite_text("HeuvelinkEtAl1999")` <!-- Suporte amostral e de predição -->
+* `r cite_text("LarkEtAl2006")` <!-- REML + E-BLUP -->
+* `r cite_text("BrusEtAl2011")` <!-- Amostragem probabilística para validação estatística -->
+* `r cite_text("KempenEtAl2012a")` <!-- Extensão do modelo linear misto à variáveis categóricas -->
 
 ## Semana 4, 25-Outubro: Predição espacial e validação estatística
 
