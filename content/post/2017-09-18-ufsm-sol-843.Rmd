@@ -179,7 +179,7 @@ A partir do conhecimento visitado durante a primeira fase da disciplina, reavali
 
 O material do encontro está disponível em https://samuel-rosa.github.io/UFSM-SOL-843/uni-0.
 
-**Tarefas para a próxima semana**:
+### Tarefas para a próxima semana {-}
 
 Primeira versão do texto dissertativo da [primeira tarefa](#tarefa-1):
 
@@ -187,7 +187,7 @@ Primeira versão do texto dissertativo da [primeira tarefa](#tarefa-1):
 * `r paper02`
 * `r paper03`
 
-**Leituras para a próxima semana**:
+### Leituras para a próxima semana {-}
 
 Leia o seguinte artigo:
 
@@ -213,7 +213,7 @@ E também, pelo menos, um dos artigos abaixo:
 
 O material do encontro está disponível em https://samuel-rosa.github.io/UFSM-SOL-843/uni-1.
 
-**Tarefas para a próxima semana**:
+### Tarefas para a próxima semana {-}
 
 Segunda versão do texto dissertativo da [primeira tarefa](#tarefa-1):
 
@@ -221,7 +221,7 @@ Segunda versão do texto dissertativo da [primeira tarefa](#tarefa-1):
 * `r paper02`
 * `r paper03`
 
-**Leituras para a próxima semana**:
+### Leituras para a próxima semana {-}
 
 Leia o seguinte artigo:
 
@@ -242,7 +242,7 @@ semivariograma empírico.
 
 O material do encontro está disponível em https://samuel-rosa.github.io/UFSM-SOL-843/uni-2.
 
-**Tarefas para a próxima semana**: 
+### Tarefas para a próxima semana {-} 
 
 Terceira versão do texto dissertativo da [primeira tarefa](#tarefa-1):
 
@@ -250,7 +250,7 @@ Terceira versão do texto dissertativo da [primeira tarefa](#tarefa-1):
 * `r paper02`
 * `r paper03`
 
-**Leituras para a próxima semana**:
+### Leituras para a próxima semana {-}
 
 Leia o seguinte artigo:
 
@@ -266,7 +266,7 @@ Leia também, pelo menos, um dos artigos a seguir:
 
 **Temas**: A definir.
 
-**Tarefas para a próxima semana**: 
+### Tarefas para a próxima semana {-} 
 
 Quarta versão do texto dissertativo da [primeira tarefa](#tarefa-1):
 
@@ -274,7 +274,7 @@ Quarta versão do texto dissertativo da [primeira tarefa](#tarefa-1):
 * `r paper02`
 * `r paper03`
 
-**Leituras para a próxima semana**:
+### Leituras para a próxima semana {-}
 
 A definir.
 
@@ -282,7 +282,7 @@ A definir.
 
 **Temas**: A definir.
 
-**Tarefas para a próxima semana**: 
+### Tarefas para a próxima semana {-} 
 
 Quinta e última versão do texto dissertativo da [primeira tarefa](#tarefa-1):
 
@@ -290,7 +290,7 @@ Quinta e última versão do texto dissertativo da [primeira tarefa](#tarefa-1):
 * `r paper02`
 * `r paper03`
 
-**Leituras para a próxima semana**:
+### Leituras para a próxima semana {-}
 
 A definir.
 
@@ -298,7 +298,7 @@ A definir.
 
 **Temas**: A definir.
 
-**Tarefas para o próximo encontro**: 
+### Tarefas para o próximo encontro {-} 
 
 Repositório com os dados, código fonte, e caderno de anotações com os resultados da [segunda tarefa](#tarefa-2).
 
