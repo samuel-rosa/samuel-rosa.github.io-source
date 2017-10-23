@@ -314,16 +314,10 @@ Quinta e última versão do texto dissertativo da [primeira tarefa](#tarefa-1):
 
 ### Leituras para a próxima semana {-}
 
-Leia o seguinte artigo:
+Leia os dois artigos abaixo:
 
-* `r cite_text("")` <!--  -->
-
-Leia também, pelo menos, um dos artigos a seguir:
-
-* `r cite_text("")` <!--  -->
-* `r cite_text("")` <!--  -->
-* `r cite_text("")` <!--  -->
-* `r cite_text("")` <!--  -->
+* `r cite_text("Goovaerts1999")` <!-- Diversos aspectos da geoestatística, inclusive simulação -->
+* `r cite_text("HeuvelinkEtAl2007a")` <!-- Modelos de incerteza para objetos variados -->
 
 ## Semana 5, 01-Novembro: Simulação espacial e propagação de incerteza
 
