@@ -2,7 +2,7 @@
 title: 'Modelagem Geoestatística do Ambiente'
 summary: 'UFSM SOL 843: Tópicos em Ciência do Solo'
 author: Alessandro Samuel-Rosa
-date: '`r Sys.Date()`'
+date: '2017-10-30'
 slug: 2017-ufsm-sol-843
 tags:
   - ensino
