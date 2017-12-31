@@ -407,8 +407,8 @@ Leia os dois artigos abaixo:
 
 ## Semana 5, 01-Novembro: Simulação espacial e propagação de incerteza
 
-**Temas**: A definir.
-
+**Temas**: A Simulação versus predição. Modelo de incerteza local. Modelo de incerteza espacial. Simulação
+não-condicional. Simulação condicional. Simulação sequencial Gaussiana. Propagação de incerteza
 ### Tarefas para o próximo encontro 
 
 Repositório com os dados, código fonte, e caderno de anotações com os resultados da [segunda tarefa](#tarefa-2).
