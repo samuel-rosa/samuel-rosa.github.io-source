@@ -37,6 +37,17 @@ weight = 1
 
 # Bibliografia
 
-Eu estudei Ciência do Solo e trabalho na Universidade Federal de Santa Maria (UFSM) desde o final de 2016. Após meus primeiros trabalhos sobre as complexas interações entre o uso da terra e a qualidade do solo, em 2012, mudei para o campo da Pedometria. A colaboração com pesquisadores do Centro Nacional de Pesquisas sobre Solos (Embrapa), do International Soil Reference and Information Centre (ISRIC), da Wageningen University and Research Centre (WUR) e da Universidade Federal Rural do Rio de Janeiro (UFRRJ) permitiu familiarizar-me com múltiplos métodos e técnicas pedométricas.
+Eu sou professor/pesquisador da Universidade Tecnológica Federal do Paraná -- câmpus Santa Helena ([UTFPR][utfpr]) desde março de 2017. Após meus primeiros estudos na Universidade Federal de Santa Maria ([UFSM][ufsm]) sobre as complexas interações entre o uso da terra e a qualidade do solo, em 2012, mudei para o campo da Pedometria. A colaboração com pesquisadores do Centro Nacional de Pesquisas sobre Solos ([Embrapa][embrapa]), do International Soil Reference and Information Centre ([ISRIC][isric]), da Wageningen University and Research Centre ([WUR][wur]) e da Universidade Federal Rural do Rio de Janeiro ([UFRRJ][ufrrj]), permitiu familiarizar-me com múltiplos métodos e técnicas pedométricas.
 
-Meu principal interesse científico é a modelagem espacial do solo com foco em estratégias de amostragem, seleção e calibração de aprendizes (geo)estatísticos e análise de incerteza. Recentemente eu publiquei alguns artigos relevantes sobre esses tópicos em revistas internacionais. Também sou o autor de dois pacotes para o R, os quais são amplamente utilizados, cada um com centenas de downloads por mês.
+Meu principal interesse científico é a modelagem espacial do solo, com foco nas estratégias de amostragem espacial, seleção e calibração de aprendizes (geo)estatísticos, análise de incerteza, e gerenciamento de dados abertos. Recentemente eu publiquei alguns artigos relevantes sobre esses tópicos em revistas internacionais. Também sou o autor de três pacotes para o R -- [pedometrics][rpedometrics], [spsann][rspsann], e [febr][rfebr] -- e mantenedor do Repositório Brasileiro Livre para Dados Abertos do Solo ([febr][febr]).
+
+[utfpr]: https://portal.utfpr.edu.br/
+[ufsm]: http://site.ufsm.br/
+[embrapa]: https://www.embrapa.br/pt/solos/
+[isric]: http://www.isric.org/
+[wur]: https://www.wur.nl/pt.htm
+[ufrrj]: http://portal.ufrrj.br/
+[rpedometrics]: https://CRAN.R-project.org/package=pedometrics
+[rspsann]: https://CRAN.R-project.org/package=spsann
+[rfebr]: https://CRAN.R-project.org/package=febr
+[febr]: http://coral.ufsm.br/febr/

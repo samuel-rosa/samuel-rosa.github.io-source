@@ -16,7 +16,7 @@ disqusShortname = "samuel-rosa"
 googleAnalytics = ""
 
 # Default language to use (if you setup multilingual support)
-defaultContentLanguage = "pt-br"
+defaultContentLanguage = "pt"
 defaultContentLanguageInSubdir = false
 
 [blackfriday]
@@ -24,15 +24,15 @@ defaultContentLanguageInSubdir = false
 
 [params]
   name = "A. Samuel-Rosa"
-  role = "Estagiário Pós-Doutoral"
-  organization = "Universidade Federal de Santa Maria"
-  organization_url = "http://site.ufsm.br/"
+  role = "Professor/Pesquisador"
+  organization = "Universidade Tecnológica Federal do Paraná"
+  organization_url = "http://portal.utfpr.edu.br/"
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "eu.png"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "alessandrosamuelrosa@gmail.com"
-  address = "Prédio 42 Sala 3314, Universidade Federal de Santa Maria, Santa Maria (RS), 97105-900, Brasil"
-#  office_hours = "Monday 10:00 to 13:00 or email for appointment"
-  phone = "+55 (55) 3220-8157"
+  email = "alessandrorosa@utfpr.edu.br"
+  address = "Universidade Tecnológica Federal do Paraná, Sala E8, Santa Helena (PR), 85892-000, Brasil"
+  office_hours = "Segunda à sexta das 8:00 às 18:00 (ou via email)"
+  phone = "+55 (45) 3268-8800"
   skype = "alessandrosamuel"
   telegram = ""
 
