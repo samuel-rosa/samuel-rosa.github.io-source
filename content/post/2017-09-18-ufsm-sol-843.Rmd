@@ -17,11 +17,10 @@ output:
 ---
 
 ```{r, echo=FALSE, message=FALSE}
-smiley <- emo::ji("smiley") 
 hora_dia <- "seis"
 
 # Inclusão do texto de referências bibliográficas no corpo do documento.
-biblio <- bibtex::read.bib("~/Dropbox/jabref/biblio.bib")
+biblio <- bibtex::read.bib(file = "~/Dropbox/jabref/biblio.bib")
 cite_text <- 
   function (bibkey) {
     R.utils::captureOutput(print(biblio[bibkey]), collapse = " ")
@@ -92,7 +91,7 @@ parcialmente concentrado, tendo duração de um mês e encontros semanais. Cada 
 acerca do conteúdo planejado usando como ferramentas quadro branco, projetor de multimídia e o livro digital 
 [Pedometria Feita Simples](http://samuel-rosa.github.io/pedometria-feita-simples/). Os participantes do curso 
 farão leituras dirigidas antes de cada encontro. (Você terá que ler, pelo menos, dois-três artigos para cada 
-aula `r smiley`) As leituras dirigidas servirão de base para as discussões a serem incitadas pelo instrutor 
+aula) As leituras dirigidas servirão de base para as discussões a serem incitadas pelo instrutor 
 durante o encontros e para desenvolver a [primeira](#tarefa-1) das duas tarefas obrigatórias do curso. 
 Adicionalmente, serão desenvolvidas atividades práticas de resolução de exercícios durante os encontros, para 
 as quais os participantes utilizarão o ambiente R de análise de dados em seus computadores pessoais.
@@ -181,10 +180,10 @@ da [primeira tarefa](#tarefa-1). O processamento e análise dos dados serão fei
 geoestatísticos disponíveis. A documentação das atividades será feita usando um 
 [caderno de anotações do R](http://rmarkdown.rstudio.com/r_notebooks.html). Os dados e código fonte serão 
 organizados e publicados em repositório público com controle de versão (git) no [GitHub](https://github.com/) 
-(nós trataremos sobre o repositório no [encontro de nivelamento](#semana-zero) `r smiley`). Esse repositório 
+(nós trataremos sobre o repositório no [encontro de nivelamento](#semana-zero)). Esse repositório 
 terá uma página própria onde versões atualizadas do caderno de anotações serão publicadas, no mínimo, 
 semanalmente. (Tenha em mente que o prazo para desenvolvimento da tarefa é de apenas um mês, o que requer um 
-planejamento rigoroso e metas realistas `r smiley`)
+planejamento rigoroso e metas realistas)
 
 O produto dessa tarefa, a ser entregue até 06-Dezembro, será composto pelo repositório e seu conteúdo. Isso 
 inclui (a) os dados utilizados, (b) o código fonte desenvolvido, e (c) o caderno de anotações com os resultados
@@ -256,7 +255,7 @@ viáveis para reduzir a incerteza.
 **Temas**: Nivelamento ferramental necessários aos participantes para completar as duas tarefas obrigatórias 
 do curso. Introdução ao ambiente [R](https://www.r-project.org/) de análise de dados e ao ambiente 
 [RStudio](https://www.rstudio.com/) de desenvolvimento integrado. (Você precisa ter instalada em seu computador
-a versão *Preview* do RStudio `r smiley`) Estudo do sistema [git](https://git-scm.com/) de gerenciamento de 
+a versão *Preview* do RStudioEstudo do sistema [git](https://git-scm.com/) de gerenciamento de 
 código fonte e controle de versão distribuído e da plataforma [GitHub](https://github.com/) de hospedagem de 
 código fonte. Apresentação de aspectos da programação letrada e uso da linguagem de marcação 
 [Markdown do R](http://rmarkdown.rstudio.com/) para produção de 
