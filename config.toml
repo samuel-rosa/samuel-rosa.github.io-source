@@ -49,21 +49,13 @@ enableGitInfo = false
   smartypants = true  # `false` disables all smart punctuation substitutions (e.g. smart quotes, dashes, fractions).
 
 [params]
-  # Color theme.
-  #   Choose from `default`, `ocean`, `forest`, `coffee`, `dark`, or `1950s`.
-  color_theme = "default"
-
-  # Font style.
-  #   Choose from `default`, `classic`, or `playfair`.
-  font = "default"
-
   # Your details.
   name = "A. Samuel-Rosa"
   role = "Cientista do Solo / Pedometrista"
 
   # Organizations/Affiliations.
-  #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Universidade Tecnológica Federal do Paraná", url = "http://portal.utfpr.edu.br/" } ]  
+  organization = "Universidade Tecnológica Federal do Paraná"
+  organization_url = "http://portal.utfpr.edu.br/"
 
   gravatar = true  # Get your avatar from Gravatar.com? (true/false)
   avatar = ""  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
