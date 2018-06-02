@@ -18,13 +18,6 @@ output:
 
 ```{r, echo=FALSE, message=FALSE}
 hora_dia <- "seis"
-
-# Inclusão do texto de referências bibliográficas no corpo do documento.
-biblio <- bibtex::read.bib(file = "~/Dropbox/jabref/biblio.bib")
-cite_text <- 
-  function (bibkey) {
-    R.utils::captureOutput(print(biblio[bibkey]), collapse = " ")
-  }
 ```
 
 # Descrição Geral
@@ -126,7 +119,7 @@ cada encontro do curso. (Nós trataremos sobre o Authorea no encontro de [nivela
 😉) Assim que publicado, o texto dissertativo será divulgado aos colegas do seu campo de pesquisa, 
 convidando-os para que façam comentários sobre suas reflexões. (Por exemplo, os fóruns de discussão da Comissão
 de Pedometria da Sociedade Brasileira de Ciência do Solo -- pedometria@googlegroups.com -- e de Levantamentos
-Pedológicos Detalhados -- soil-mapping@googlegroups.com 😉)
+Pedológicos Detalhados -- soil-mapping@googlegroups.com)
 
 [authorea]: https://www.authorea.com/
 
@@ -238,15 +231,18 @@ viáveis para reduzir a incerteza.
 
 ## Referências Bibliográficas 
 
-`r cite_text("deGruijterEtAl2006")`
+de Gruijter , J. J.; Brus, D.; Bierkens, M. & Knotters, M. Sampling for natural resource monitoring.
+Springer, 2006, 332. URL: http://www.springer.com/environment/environmental+toxicology/book/978-3-540-22486-0
 
-`r cite_text("DiggleEtAl2007")`
+Diggle, P. J. & Ribeiro Jr, P. J. Model-based Geostatistics. Springer, 2007, 228. 
+URL: http://www.springer.com/earth+sciences+and+geography/book/978-0-387-32907-9
 
-`r cite_text("Goovaerts1997")`
+Goovaerts, P. Geostatistics for Natural Resources Evaluation. Oxford University Press, 1997, 483.
 
-`r cite_text("WebsterEtAl2007")`
+Webster, R. & Oliver, M. A. Geostatistics for Environmental Scientists. John Wiley & Sons, 2007, 315.
 
-`r cite_text("ZuurEtAl2009")`
+Zuur, A. F.; Ieno, E. N.; Walker, N.; Saveliev, A. A. & Smith, G. M. Mixed effects models and extensions in
+ecology with R. Springer, 2009, 574. doi:10.1007/978-0-387-87458-6
 
 # Cronograma Semanal {#cronograma-semanal}
 
@@ -255,7 +251,7 @@ viáveis para reduzir a incerteza.
 **Temas**: Nivelamento ferramental necessários aos participantes para completar as duas tarefas obrigatórias 
 do curso. Introdução ao ambiente [R](https://www.r-project.org/) de análise de dados e ao ambiente 
 [RStudio](https://www.rstudio.com/) de desenvolvimento integrado. (Você precisa ter instalada em seu computador
-a versão *Preview* do RStudioEstudo do sistema [git](https://git-scm.com/) de gerenciamento de 
+a versão *Preview* do RStudio) Estudo do sistema [git](https://git-scm.com/) de gerenciamento de 
 código fonte e controle de versão distribuído e da plataforma [GitHub](https://github.com/) de hospedagem de 
 código fonte. Apresentação de aspectos da programação letrada e uso da linguagem de marcação 
 [Markdown do R](http://rmarkdown.rstudio.com/) para produção de 
@@ -276,21 +272,34 @@ Primeira versão do texto dissertativo da [primeira tarefa](#tarefa-1):
 
 Leia o seguinte artigo:
 
-* `r cite_text("WebsterEtAl1968")`
+* Webster, R. & Beckett, P. H. T. Quality and usefulness of soil maps. Nature, Nature Publishing Group, 1968, 
+  219, 680-682. doi:10.1038/219680a0
 
 Leia também, pelo menos, um dos artigos a seguir:
 
-* `r cite_text("KuilenburgEtAl1982")`
-* `r cite_text("BregtEtAl1987")`
-* `r cite_text("Hudson1992")`
-* `r cite_text("Heuvelink1996")`
+* Kuilenburg, J. V.; Gruijter, J. J.; Marsman, B. A. & Bouma, J. Accuracy of spatial interpolation between 
+  point data on soil moisture supply capacity, compared with estimates from mapping units. Geoderma, 1982, 27,
+  311 - 325. doi:10.1016/0016-7061(82)90020-9
+* Bregt, A. K.; Bouma, J. & Jellinek, M. Comparison of thematic maps derived from a soil map and from kriging 
+  of point data. Geoderma, Elsevier BV, 1987, 39, 281-291. doi:10.1016/0016-7061(87)90048-6
+* Hudson, B. D. The soil survey as paradigm-based science. Soil Science Society of America Journal, 1992, 56,
+  836-841. doi:10.2136/sssaj1992.03615995005600030027x
+* Heuvelink, G. B. M. Identification of field attribute error under different models of spatial variation.
+  International journal of geographical information systems, Informa UK Limited, 1996, 10, 921-935. 
+  doi:10.1080/02693799608902117
 
 E também, pelo menos, um dos artigos abaixo:
 
-* `r cite_text("BurgessEtAl1980")`
-* `r cite_text("McbratneyEtAl1986")`
-* `r cite_text("JianEtAl1996")`
-* `r cite_text("LarkEtAl1998")`
+* Burgess, T. M. & Webster, R. Optimal interpolation and isarthmic mapping of soil properties. I. The
+  semi-variogram and punctual kriging. Journal of Soil Science, Wiley-Blackwell, 1980, 31, 315-331. 
+  doi:10.1111/j.1365-2389.1980.tb02084.x
+* Mcbratney, A. B. & Webster, R. Choosing functions for semi-variograms of soil properties and fitting them to
+  sampling estimates. Journal of Soil Science, 1986, 37, 617-639. doi:10.1111/j.1365-2389.1986.tb00392.x
+* Jian, X.; Olea, R. A. & Yu, Y.-S. Semivariogram modeling by weighted least squares. Computers & Geosciences,
+  Elsevier BV, 1996, 22, 387-397. doi:10.1016/0098-3004(95)00095-x
+* Lark, R. M. & Beckett, P. H. T. A geostatistical descriptor of the spatial distribution of soil classes, and
+  its use in predicting the purity of possible soil map units. Geoderma, 1998, 83, 243-267. 
+  doi:10.1016/S0016-7061(97)00144-4
 
 ## Semana 1, 04-Outubro: Modelos de variação espacial
 
@@ -313,13 +322,23 @@ Segunda versão do texto dissertativo da [primeira tarefa](#tarefa-1):
 
 Leia o seguinte artigo:
 
-* `r cite_text("Webster2000")` <!-- Pressupostos do modelo geoestatístico -->
+<!-- Pressupostos do modelo geoestatístico -->
+* Webster, R. Is soil variation random?. Geoderma, Elsevier BV, 2000, 97, 149-163. 
+  doi:10.1016/s0016-7061(00)00036-7 
 
 Leia também, pelo menos, um dos artigos a seguir:
 
-* `r cite_text("McbratneyEtAl1986")` <!-- Semivariograma e funções autorizadas -->
-* `r cite_text("WarrickEtAl1987")` <!-- Amostragem para estimar o modelo do semivariograma -->
-* `r cite_text("Myers1989")` <!-- Estacionariedade -->
+<!-- Semivariograma e funções autorizadas -->
+* Mcbratney, A. B. & Webster, R. Choosing functions for semi-variograms of soil properties and fitting them to
+  sampling estimates. Journal of Soil Science, 1986, 37, 617-639. doi:10.1111/j.1365-2389.1986.tb00392.x
+
+<!-- Amostragem para estimar o modelo do semivariograma -->
+* Müller, W. G. & Zimmerman, D. L. Optimal designs for variogram estimation. Environmetrics, 1999, 10, 23-37. 
+  doi:10.1002/(sici)1099-095x(199901/02)10:1 3.0.co;2-p 
+
+<!-- Estacionariedade -->
+* Myers, D. E. To be or not to be... stationary? That is the question. Mathematical Geology, Springer Nature,
+  1989, 21, 347-362. doi:10.1007/bf00893695
 
 ## Semana 2, 11-Outubro: Propriedades dos dados espaciais
 
@@ -342,13 +361,23 @@ Terceira versão do texto dissertativo da [primeira tarefa](#tarefa-1):
 
 Leia o seguinte artigo:
 
-* `r cite_text("HeuvelinkEtAl2001")` <!-- Modelos de variação espacial e temporal -->
+<!-- Modelos de variação espacial e temporal -->
+* Heuvelink, G. B. M. & Webster, R. Modelling soil variation: past, present, and future. Geoderma, 2001, 100,
+  269-301. doi:10.1016/S0016-7061(01)00025-8
 
 Leia também, pelo menos, um dos artigos a seguir:
 
-* `r cite_text("Lark2000")` <!-- Máxima verossimilhança -->
-* `r cite_text("MinasnyEtAl2005")` <!-- Função de covariância Matérn -->
-* `r cite_text("HenglEtAl2007b")` <!-- Regressão krigagem -->
+<!-- Máxima verossimilhança -->
+* Lark, R. M. Estimating variograms of soil properties by the method-of-moments and maximum likelihood. 
+  European Journal of Soil Science, 2000, 51, 717-728. doi:10.1046/j.1365-2389.2000.00345.x 
+
+<!-- Função de covariância Matérn -->
+* Minasny, B. & McBratney, A. B. The Matérn function as a general model for soil variograms. Geoderma, 
+  Elsevier, 2005, 128, 192-207. doi:10.1016/j.geoderma.2005.04.003
+
+<!-- Regressão krigagem -->
+* Hengl, T.; Heuvelink, G. B. M. & Rossiter, D. G. About regression-kriging: from equations to case studies. 
+  Computers & Geosciences, 2007, 33, 1301-1315. doi:10.1016/j.cageo.2007.05.001
 
 ## Semana 3, 18-Outubro: Modelo linear misto de variação espacial
 
@@ -372,14 +401,29 @@ Quarta versão do texto dissertativo da [primeira tarefa](#tarefa-1):
 
 Leia o seguinte artigo:
 
-* `r cite_text("Lark2012")` <!-- Modelo linear misto de variação espacial na ciência do solo -->
+<!-- Modelo linear misto de variação espacial na ciência do solo -->
+* Lark, R. M. Towards soil geostatistics. Spatial Statistics, Elsevier BV, 2012, 1, 92-99. 
+  doi:10.1016/j.spasta.2012.02.001 
 
 Leia também, pelo menos, um dos artigos a seguir:
 
-* `r cite_text("HeuvelinkEtAl1999")` <!-- Suporte amostral e de predição -->
-* `r cite_text("LarkEtAl2006")` <!-- REML + E-BLUP -->
-* `r cite_text("BrusEtAl2011")` <!-- Amostragem probabilística para validação estatística -->
-* `r cite_text("KempenEtAl2012a")` <!-- Extensão do modelo linear misto à variáveis categóricas -->
+<!-- Suporte amostral e de predição -->
+* Heuvelink, G. B. M. & Pebesma, E. J. Spatial aggregation and soil process modelling. Geoderma, 1999, 89, 
+  47-65. doi:10.1016/S0016-7061(98)00077-9
+
+<!-- REML + E-BLUP -->
+* Lark, R. M.; Cullis, B. R. & Welham, S. J. On spatial prediction of soil properties in the presence of a
+  spatial trend: the empirical best linear unbiased predictor (E-BLUP) with REML. European Journal of Soil
+  Science, Wiley-Blackwell, 2006, 57, 787-799. doi:10.1111/j.1365-2389.2005.00768.x 
+
+<!-- Amostragem probabilística para validação estatística -->
+* Brus, D. J.; Kempen, B. & Heuvelink, G. B. M. Sampling for validation of digital soil maps. European Journal 
+  of Soil Science, 2011, 62, 394-407. doi:10.1111/j.1365-2389.2011.01364.x
+
+<!-- Extensão do modelo linear misto à variáveis categóricas -->
+* Kempen, B.; Brus, D. J. & Heuvelink, G. B. M. Soil type mapping using the generalised linear geostatistical
+  model: a case study in a Dutch cultivated peatland. Geoderma, Elsevier BV, 2012, 189--190, 540-553. 
+  doi:10.1016/j.geoderma.2012.05.028 
 
 ## Semana 4, 25-Outubro: Predição espacial e validação estatística
 
@@ -401,8 +445,14 @@ Quinta e última versão do texto dissertativo da [primeira tarefa](#tarefa-1):
 
 Leia os dois artigos abaixo:
 
-* `r cite_text("Goovaerts2001")` <!-- Modelagem geoestatística da incerteza -->
-* `r cite_text("HeuvelinkEtAl2007a")` <!-- Modelos de incerteza para objetos variados -->
+<!-- Modelagem geoestatística da incerteza -->
+* Goovaerts, P. Geostatistical modelling of uncertainty in soil science. Geoderma, Elsevier BV, 2001, 103, 
+  3-26. doi:10.1016/s0016-7061(01)00067-2
+
+<!-- Modelos de incerteza para objetos variados -->  
+* Heuvelink, G. B. M.; Brown, J. D. & van Loon, E. E. A probabilistic framework for representing and 
+  simulating uncertain environmental variables. International Journal of Geographical Information Science, 
+  2007, 21, 497-513. doi:10.1080/13658810601063951 
 
 ## Semana 5, 01-Novembro: Simulação espacial e propagação de incerteza
 
@@ -415,8 +465,13 @@ Repositório com os dados, código fonte, e caderno de anotações com os result
 
 ### Leituras sugeridas
 
-* `r cite_text("OliverEtAl1991")` <!-- Usos diversos da geoestatística -->
-* `r cite_text("Goovaerts1999")` <!-- Diversos aspectos da geoestatística, inclusive simulação -->
+<!-- Usos diversos da geoestatística -->
+* Oliver, M. A. & Webster, R. How geostatistics can help you. Soil Use and Management, 1991, 7, 206-217. 
+  doi:10.1111/j.1475-2743.1991.tb00876.x
+
+<!-- Diversos aspectos da geoestatística, inclusive simulação -->
+* Goovaerts, P. Geostatistics in soil science: state-of-the-art and perspectives. Geoderma, 1999, 89, 1 - 45. 
+  doi:10.1016/S0016-7061(98)00078-0
 
 ## Semana 6, 06-Dezembro: Conclusão do curso
 
