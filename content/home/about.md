@@ -40,7 +40,12 @@ weight = 1
 
 Eu sou professor e pesquisador na Universidade Tecnológica Federal do Paraná, Câmpus Santa Helena ([UTFPR-SH][utfpr]), desde março de 2018. Após meus primeiros estudos na Universidade Federal de Santa Maria ([UFSM][ufsm]) sobre as complexas interações entre o uso da terra e a qualidade do solo, em 2012, mudei para o campo da pedologia quantitativa, mais conhecida como pedometria. Desde então, a colaboração com pesquisadores do Centro Nacional de Pesquisas sobre Solos ([Embrapa Solos][embrapa]), do International Soil Reference and Information Centre ([ISRIC][isric]), da Wageningen University and Research ([WUR][wur]), e da Universidade Federal Rural do Rio de Janeiro ([UFRRJ][ufrrj]), permitiu me familiarizar com múltiplos métodos e técnicas pedométricas.
 
-Hoje meu principal interesse acadêmico-científico é a pedometria, com foco no estudo de estratégias de amostragem espacial, na seleção e calibração de modelos (geo)estatísticos, na análise de propagação de erros, e no gerenciamento de dados abertos. Recentemente eu publiquei alguns artigos relevantes sobre esses tópicos em revistas nacionais e internacionais. Também sou o autor de três pacotes para o R -- [pedometrics][rpedometrics], [spsann][rspsann], e [febr][rfebr] -- e mantenedor do Repositório Brasileiro Livre para Dados Abertos do Solo ([febr][febr]).
+Hoje, meu principal interesse acadêmico-científico é a pedometria, mais especificamente o desenvolvimento de
+estratégias de otimização de amostras espaciais, a seleção de covariáveis ambientais e calibração de modelos
+(geo)estatísticos para mapeamento digital do solo, incluindo ferramentas de estatística multivariada e 
+aprendizado de máquina, e abordagens de-baixo-para-cima para compilação e compartilhamento de dados abertos do
+solo. Recentemente eu publiquei alguns artigos relevantes sobre esses tópicos em revistas nacionais e 
+internacionais. Também sou o autor de três pacotes para o R -- [pedometrics][rpedometrics], [spsann][rspsann], e [febr][rfebr] -- e mantenedor do Repositório Brasileiro Livre para Dados Abertos do Solo ([febr][febr]).
 
 [utfpr]: https://portal.utfpr.edu.br/
 [ufsm]: http://site.ufsm.br/
