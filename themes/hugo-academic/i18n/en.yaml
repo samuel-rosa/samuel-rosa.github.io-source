@@ -11,13 +11,28 @@
 - id: related
   translation: Related
 
+- id: minute_read
+  translation: min read
+
+- id: previous
+  translation: Previous
+
+- id: next
+  translation: Next
+
+- id: figure
+  translation: "Figure %d:"
+
 # Buttons
 
-- id: btn_details
-  translation: Details
+- id: btn_preprint
+  translation: Preprint
 
 - id: btn_pdf
   translation: PDF
+
+- id: btn_cite
+  translation: Cite
 
 - id: btn_slides
   translation: Slides
@@ -33,6 +48,18 @@
 
 - id: btn_project
   translation: Project
+
+- id: btn_poster
+  translation: Poster
+
+- id: btn_source
+  translation: Source Document
+
+- id: btn_copy
+  translation: Copy
+
+- id: btn_download
+  translation: Download
 
 # About widget
 
@@ -109,3 +136,25 @@
 
 - id: talks
   translation: Talks
+
+- id: projects
+  translation: Projects
+
+# Error 404
+
+- id: page_not_found
+  translation: Page not found
+
+- id: 404_recommendations
+  translation: Perhaps you were looking for one of these?
+
+# Cookie consent
+
+- id: cookie_message
+  translation: This website uses cookies to ensure you get the best experience on our website.
+
+- id: cookie_dismiss
+  translation: Got it!
+
+- id: cookie_learn
+  translation: Learn more
