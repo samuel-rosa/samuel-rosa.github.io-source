@@ -3,36 +3,13 @@
 - id: toggle_navigation
   translation: Barra de navegación
 
-- id: table_of_contents
-  translation: Índice
-
-# General
-
-- id: related
-  translation: Relacionado
-
-- id: minute_read
-  translation: min de lectura
-
-- id: previous
-  translation: Anterior
-
-- id: next
-  translation: Siguiente
-
-- id: figure
-  translation: "Figura %d:"
-
 # Buttons
 
-- id: btn_preprint
-  translation: Preimpresión
+- id: btn_details
+  translation: Detalles
 
 - id: btn_pdf
   translation: PDF
-
-- id: btn_cite
-  translation: Citar
 
 - id: btn_slides
   translation: Diapositivas
@@ -49,22 +26,10 @@
 - id: btn_project
   translation: Proyecto
 
-- id: btn_poster
-  translation: Poster
-
-- id: btn_source
-  translation: Documento fuente
-
-- id: btn_copy
-  translation: Copiar
-
-- id: btn_download
-  translation: Descargar
-
 # About widget
 
 - id: interests
-  translation: Intereses
+  translation: Interés
 
 - id: education
   translation: Educación
@@ -72,15 +37,15 @@
 # Publications widget
 
 - id: more_publications
-  translation: Más publicaciones
+  translation: Más Publicaciones
 
 # Posts widget
 
 - id: continue_reading
-  translation: CONTINUAR LEYENDO
+  translation: CONTINÚA LEYENDO
 
 - id: more_posts
-  translation: Más posts
+  translation: Más Posts
 
 # Talks widget
 
@@ -101,9 +66,6 @@
 - id: date
   translation: Fecha
 
-- id: last_updated
-  translation: Última actualización el
-
 - id: links
   translation: Links
 
@@ -116,7 +78,7 @@
 # Filtering
 
 - id: filter_by_type
-  translation: Filtrar por tipo
+  translation: Filtro por tipo
 
 - id: filter_all
   translation: Todo
@@ -135,26 +97,4 @@
   translation: Publicaciones
 
 - id: talks
-  translation: Conferencias
-
-- id: projects
-  translation: Proyectos
-
-# Error 404
-
-- id: page_not_found
-  translation: Página no encontrada
-
-- id: 404_recommendations
-  translation: ¿Buscabas una de éstas?
-
-# Cookie consent
-
-- id: cookie_message
-  translation: Este sitio web utiliza cookies para garantizarle una mejor experiencia.
-
-- id: cookie_dismiss
-  translation: Entendido!
-
-- id: cookie_learn
-  translation: Más información
+  translation: Charlas

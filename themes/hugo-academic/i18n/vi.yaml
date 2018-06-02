@@ -3,33 +3,13 @@
 - id: toggle_navigation
   translation: Chuyển Điều Hướng
 
-- id: table_of_contents
-  translation: Mục Lục 
-
-# General
-
-- id: related
-  translation: Bài Liên Quan 
-
-- id: minute_read
-  translation: phút để đọc
-
-- id: previous
-  translation: Trước
-
-- id: next
-  translation: Sau
-
 # Buttons
 
-- id: btn_preprint
-  translation: Bản Thảo
+- id: btn_details
+  translation: Chi Tiết
 
 - id: btn_pdf
   translation: PDF
-
-- id: btn_cite
-  translation: Trích Dẫn
 
 - id: btn_slides
   translation: Slides
@@ -46,22 +26,10 @@
 - id: btn_project
   translation: Dự Án
 
-- id: btn_poster
-  translation: Poster
-
-- id: btn_source
-  translation: Mã Nguồn
-
-- id: btn_copy
-  translation: Sao Chép
-
-- id: btn_download
-  translation: Tải Về 
-
 # About widget
 
 - id: interests
-  translation: Hướng Nghiên Cứu
+  translation: Sở Thích
 
 - id: education
   translation: Học Vấn
@@ -77,12 +45,12 @@
   translation: ĐỌC TIẾP
 
 - id: more_posts
-  translation: Bài Đăng Khác
+  translation: Các Bài Đăng
 
 # Talks widget
 
 - id: more_talks
-  translation: Thuyết Trình Khác
+  translation: Các Thuyết Trình
 
 # Publication/Talk details
 
@@ -90,16 +58,13 @@
   translation: Tóm tắt
 
 - id: publication
-  translation: Công Trình
+  translation: Công trình
 
 - id: publication_type
-  translation: Phân Loại
+  translation: Phân loại
 
 - id: date
-  translation: Thời Gian
-
-- id: last_updated
-  translation: Cập Nhật Lần Cuối
+  translation: Ngày Tháng
 
 - id: links
   translation: Liên Kết
@@ -113,7 +78,7 @@
 # Filtering
 
 - id: filter_by_type
-  translation: Phân Loại
+  translation: Lọc theo loại
 
 - id: filter_all
   translation: Tất Cả
@@ -132,15 +97,4 @@
   translation: Công Trình
 
 - id: talks
-  translation: Thuyết Trình
-
-- id: projects
-  translation: Dự Án 
-
-# Error 404
-
-- id: page_not_found
-  translation: Trang không tìm thấy 
-
-- id: 404_recommendations
-  translation: Có thể bạn đang tìm những trang này
+  translation: Buổi Nói Chuyện

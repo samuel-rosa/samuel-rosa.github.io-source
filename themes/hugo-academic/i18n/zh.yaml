@@ -6,33 +6,13 @@
 - id: table_of_contents
   translation: 目录
 
-# General
-
-- id: related
-  translation: 相关
-
-- id: minute_read
-  translation: 分钟阅读时间
-
-- id: previous
-  translation: 上一页
-
-- id: next
-  translation: 下一页
-
-- id: figure
-  translation: "图%d:"
-
 # Buttons
 
-- id: btn_preprint
-  translation: 预印本
+- id: btn_details
+  translation: 详情
 
 - id: btn_pdf
   translation: PDF
-
-- id: btn_cite
-  translation: 引用
 
 - id: btn_slides
   translation: 演示文稿
@@ -48,18 +28,6 @@
 
 - id: btn_project
   translation: 项目
-
-- id: btn_poster
-  translation: 海报
-
-- id: btn_source
-  translation: 源文档
-
-- id: btn_copy
-  translation: 复制
-
-- id: btn_download
-  translation: 下载
 
 # About widget
 
@@ -136,25 +104,3 @@
 
 - id: talks
   translation: 演讲
-
-- id: projects
-  translation: 项目
-
-# Error 404
-
-- id: page_not_found
-  translation: 找不到页面
-
-- id: 404_recommendations
-  translation: 也许你在找？
-
-# Cookie consent
-
-- id: cookie_message
-  translation: 本网站使用cookies来确保您在本网站上获得最佳体验。
-
-- id: cookie_dismiss
-  translation: 知道了!
-
-- id: cookie_learn
-  translation: 了解更多
