@@ -1,0 +1,64 @@
+---
+title: 'Empreendedorismo'
+summary: 'ED228A CC82'
+author: Alessandro Samuel-Rosa
+date: '2018-03-18'
+slug: 2018-utfpr-cocic-empreendedorismo
+tags:
+  - ensino
+  - utfpr
+  - cocic
+output:
+  blogdown::html_page:
+    toc: true
+---
+
+# Descrição geral
+
+## Identificação
+
+**Instituição**: Universidade Tecnológica Federal do Paraná - Câmpus Santa Helena<br>
+**Unidade**: Coordenação de Ciência da Computação - COCIC<br>
+**Código**: ED228A<br>
+**Carga horária**: 30 horas (AT = 2; AP = 0; APS = 2; ANP = 0; APCC = 0)<br>
+**Nível**: Graduação<br>
+**Instrutor**: Alessandro Samuel-Rosa<br>
+**AVEA**: http://moodle.utfpr.edu.br/course/view.php?id=6772
+
+## Objetivos
+
+Capacitar o discente a identificar e a valiar as oportunidades e riscos de potenciais negócios.
+
+## Ementa
+
+Oportunidade de negócios. Características do perfil empreendedor. Inovação. Plano de negócios.
+
+# Bibliografia 
+
+## Básica
+
+ARAUJO FILHO, Geraldo Ferreira de. **Empreendedorismo criativo**: a nova dimensão da empregabilidade. Rio de 
+Janeiro, RJ: Ciência Moderna, 2007. xxiii, 558 p. ISBN 9788573936032.
+
+DORNELAS, José Carlos Assis. **Empreendedorismo**: transformando idéias em negócios. 6. ed. São Paulo, SP: 
+Atlas, 2016. 267 p. ISBN 9788597003932.
+
+HISRICH, Robert D.; PETERS, Michael P.; SHEPERD, Dean A. (Autor). **Empreendedorismo**. 9. ed. Porto Alegre,
+RS: AMGH, 2014. xxii, 456 p. ISBN 9788580553321.
+
+## Bibliografia Complementar
+
+EMPREENDEDORISMO inovador: como criar startups de tecnologia no Brasil. São Paulo, SP: Évora, 2012. xxiv, 557 
+p. ISBN 9788563993434.
+
+HASHIMOTO, Marcos. **Práticas de empreendedorismo**: casos e planos de negócios. Rio de Janeiro, RJ: Campus,
+Elsevier, 2012. 209 p. ISBN 9788535256994.
+
+THIEL, Peter A. **De zero a um**: o que aprender sobre empreendedorismo com o Vale do Siício. 1. ed. Rio de 
+Janeiro, RJ: Objetiva, 2014. 215 p. ISBN 9788539006205.
+
+TRIAS DE BES, Fernando. **O livro negro do empreendedor**: depois não diga que não foi avisado. 2. ed. Rio de 
+Janeiro, RJ: Bestseller, 2010. 156 p. ISBN 9788576841487.
+
+KAHNEY, Leander. **A cabeça de Steve Jobs**: as lições do líder da empresa mais revolucionária do mundo. 2. ed. 
+Rio de Janeiro: Agir, 2009. 286 p. ISBN 978-85-220-0977-0.

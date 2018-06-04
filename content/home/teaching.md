@@ -16,6 +16,14 @@ weight = 60
 
 +++
 
-### Universidade Federal de Santa Maria
+### Universidade Tecnológica Federal do Paraná (UTFPR)
+
+- [ED228A: Empreendedorismo](post/2018-utfpr-cocic-empreendedorimos)
+
+- [CC28B: Gestão da Inovação e Tecnologia](post/2018-utfpr-cocic-gestao-inovacao-tecnologia)
+
+<!--
+### Universidade Federal de Santa Maria (UFSM)
 
 - [SOL 843: Tópicos em Ciência do Solo -- Modelagem Geoestatística do Ambiente](post/2017-ufsm-sol-843)
+-->
