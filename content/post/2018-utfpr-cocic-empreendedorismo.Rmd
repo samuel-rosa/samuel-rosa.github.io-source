@@ -25,6 +25,12 @@ output:
 **Instrutor**: Alessandro Samuel-Rosa<br>
 **AVEA**: http://moodle.utfpr.edu.br/course/view.php?id=6772
 
+## Calendário de aulas
+
+**Período**: 2019-I<br>
+**Horário**: Segunda-feira, 14:40-15:30 (Paluno), 15:50-17:30 (Aula)<br>
+**Local**: Sala L2
+
 ## Objetivos
 
 Capacitar o discente a identificar e a valiar as oportunidades e riscos de potenciais negócios.

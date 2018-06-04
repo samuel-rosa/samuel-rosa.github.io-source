@@ -25,6 +25,12 @@ output:
 **Instrutor**: Alessandro Samuel-Rosa<br>
 **AVEA**: http://moodle.utfpr.edu.br/course/view.php?id=6770
 
+## Calendário de aulas
+
+**Período**: 2019-I<br>
+**Horário**: Sexta-feira, 14:40-15:30 (Paluno), 15:50-17:30 (Aula)<br>
+**Local**: Sala E09
+
 ## Objetivos
 
 Compreender a importância da tecnologia como elemento de competitividade nas organizações como também 
