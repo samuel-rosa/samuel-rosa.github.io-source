@@ -250,10 +250,10 @@ enableGitInfo = false
     icon_pack = "ai"
     link = "//orcid.org/0000-0003-0877-1320"
 
-  [[params.social]]
-    icon = "lattes-square"
-    icon_pack = "ai"
-    link = "//lattes.cnpq.br/1609751519717461"
+#  [[params.social]]
+#    icon = "lattes-square"
+#    icon_pack = "ai"
+#    link = "//lattes.cnpq.br/1609751519717461"
 
   [[params.social]]
     icon = "linkedin-square"
