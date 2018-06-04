@@ -6,7 +6,7 @@ date = "2016-04-20T00:00:00"
 draft = false
 
 title = "Ensino"
-subtitle = "Pedometria feita Simples"
+# subtitle = "Pedometria feita Simples"
 widget = "custom"
 
 # Order that this section will appear in.
@@ -16,14 +16,14 @@ weight = 60
 
 +++
 
-### Universidade Tecnológica Federal do Paraná (UTFPR)
+### Universidade Tecnológica Federal do Paraná
 
 - [ED228A: Empreendedorismo](post/2018-utfpr-cocic-empreendedorimos)
 
 - [CC28B: Gestão da Inovação e Tecnologia](post/2018-utfpr-cocic-gestao-inovacao-tecnologia)
 
 <!--
-### Universidade Federal de Santa Maria (UFSM)
+### Universidade Federal de Santa Maria
 
 - [SOL 843: Tópicos em Ciência do Solo -- Modelagem Geoestatística do Ambiente](post/2017-ufsm-sol-843)
 -->
