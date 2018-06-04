@@ -18,7 +18,7 @@ output:
 ## Identificação
 
 **Instituição**: Universidade Tecnológica Federal do Paraná - Câmpus Santa Helena<br>
-**Unidade**: Coordenação de Ciência da Computação - COCIC<br>
+**Unidade**: Coordenação de Ciência da Computação<br>
 **Código**: ED228A<br>
 **Carga horária**: 30 horas (AT = 2; AP = 0; APS = 2; ANP = 0; APCC = 0)<br>
 **Nível**: Graduação<br>

@@ -18,12 +18,16 @@ weight = 60
 
 ### Universidade Tecnológica Federal do Paraná
 
-- [ED228A: Empreendedorismo](post/2018-utfpr-cocic-empreendedorimos)
+- [ED228A: Empreendedorismo](teaching/2018-utfpr-cocic-empreendedorimos)
 
-- [CC28B: Gestão da Inovação e Tecnologia](post/2018-utfpr-cocic-gestao-inovacao-tecnologia)
+- [CC28B: Gestão da Inovação e Tecnologia](teaching/2018-utfpr-cocic-gestao-inovacao-tecnologia)
 
 <!--
 ### Universidade Federal de Santa Maria
 
-- [SOL 843: Tópicos em Ciência do Solo -- Modelagem Geoestatística do Ambiente](post/2017-ufsm-sol-843)
+- [SOL 843: Tópicos em Ciência do Solo -- Modelagem Geoestatística do Ambiente](teaching/2017-ufsm-sol-843)
 -->
+
+### Arquivo
+
+- [Cursos e disciplinas anteriores](teaching/cursos-disciplinas-anteriores)

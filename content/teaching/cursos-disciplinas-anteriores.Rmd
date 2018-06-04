@@ -1,0 +1,23 @@
+---
+title: 'Cursos e disciplinas anteriores'
+summary: ''
+author: Alessandro Samuel-Rosa
+date: '2018-06-04'
+slug: cursos-disciplinas-anteriores
+tags:
+  - ensino
+  - utfpr
+  - ufsm
+output:
+  blogdown::html_page:
+    toc: true
+---
+
+## Universidade Federal de Santa Maria
+
+**Disciplina** [Modelagem Geoestatística do Ambiente](../2017-ufsm-sol-843)<br>
+**Unidade**: Programa de Pós-Graduação em Ciência do Solo<br>
+**Código**: SOL 843 (Tópicos em Ciência do Solo)<br>
+**Carga horária**: 45 horas<br>
+**Nível**: Mestrado/Doutorado<br>
+**Período**: Primavera 2017<br>

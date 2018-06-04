@@ -1,0 +1,77 @@
+---
+title: 'Gestão da Inovação e Tecnologia'
+summary: 'CC28B CC82'
+author: Alessandro Samuel-Rosa
+date: '2018-03-18'
+slug: 2018-utfpr-cocic-gestao-inovacao-tecnologia
+tags:
+  - ensino
+  - utfpr
+  - cocic
+output:
+  blogdown::html_page:
+    toc: true
+---
+
+# Descrição geral
+
+## Identificação
+
+**Instituição**: Universidade Tecnológica Federal do Paraná - Câmpus Santa Helena<br>
+**Unidade**: Coordenação de Ciência da Computação<br>
+**Código**: CC28B<br>
+**Carga horária**: 30 horas (AT = 2; AP = 0; APS = 2; ANP = 0; APCC = 0)<br>
+**Nível**: Graduação<br>
+**Instrutor**: Alessandro Samuel-Rosa<br>
+**AVEA**: http://moodle.utfpr.edu.br/course/view.php?id=6770
+
+## Calendário de aulas
+
+**Período**: 2019-I<br>
+**Horário**: Sexta-feira, 14:40-15:30 (Paluno), 15:50-17:30 (Aula)<br>
+**Local**: Sala E09
+
+## Objetivos
+
+Compreender a importância da tecnologia como elemento de competitividade nas organizações como também 
+diagnosticar e saber desenvolver um ambiente organizacional propício para a gestão da inovação, incluindo aqui 
+desde formas de aquisição do conhecimento, tipos de inovação, até mecanismos de avaliação tecnológica e de 
+proteção da propriedade intelectual.
+
+## Ementa
+
+Globalização, competitividade e o panorama atual de C&T. Tecnologia e inovação. Aspectos comportamentais, 
+cultura e mudança organizacional. O processo de inovação tecnológica. Inovação e ciclo de vida das 
+organizações. O valor da informação e a gestão do conhecimento. Negócios e proteção à propriedade intelectual.
+Princípios de inteligência competitiva e prospecção tecnológica. Estratégia tecnológica nas empresas. Ações 
+interorganizacionais e fontes de fomento à inovação.
+
+# Bibliografia 
+
+## Básica
+
+TIDD, Joseph; BESSANT, J. R. **Gestão da inovação**. 5. ed. Porto Alegre, RS: Bookman, 2015. 633 p. ISBN
+9788582603062.
+
+INOVAÇÃO para o crescimento guia prático e funcional: ferramentas para incentivar e administrar a inovação. 
+São Paulo, SP: M. Books do Brasil Editora Ltda, 2011. 368 p. ISBN 9788576801108.
+
+MAXIMIANO, Antonio Cesar Amaru. **Administração de projetos**: como transformar idéias em resultados. 5. ed. 
+São Paulo, SP: Atlas, 2014. xxiii, 396 p. ISBN 9788522487592.
+
+## Bibliografia Complementar
+
+BARBIERI, José Carlos; CAJAZEIRA, Jorge Emanuel Reis. **Gestão de idéias para inovação contínua**. Porto 
+Alegre, RS: Bookman, 2009. 134 p. ISBN 9788577803330.
+
+REIS, Dálcio Roberto dos. **Gestão da inovação tecnológica**. 2. ed. Barueri, SP: Manole, 2008. 206 p. ISBN
+9788520426784.
+
+PHILIPPI JÚNIOR, Arlindo; SILVA NETO, Antonio J. (Ed.) **Interdisciplinaridade em ciência, tecnologia & inovação**.
+1. ed. Barueri, SP: Manole, 2011. xv, 998 p. ISBN 9788520430460.
+
+SILVA, Reinaldo O. da. **Teorias da administração**. São Paulo, SP: Pioneira Thomson Learning; Pearson Prentice
+Hall, c2001. xiv, 523 p. ISBN 8522102341.
+
+BESSANT, J. R.; TIDD, Joseph. **Inovação e empreendedorismo**. Porto Alegre, RS: Bookman, 2009. 511 p. ISBN
+9788577804818.
