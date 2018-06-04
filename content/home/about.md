@@ -12,10 +12,11 @@ weight = 1
 # List your academic interests.
 [interests]
   interests = [
-    "Modelos (Geo)Estatísticos",
-    "Otimização Amostral",
-    "Análise de Incerteza",
-    "Dados Abertos"
+    "Modelagem geoestatística",
+    "Otimização amostral espacial",
+    "Análise de incerteza",
+    "Funções de pedotransferência",
+    "Dados abertos do solo"
   ]
 
 # List your qualifications (such as academic degrees).

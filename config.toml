@@ -54,7 +54,7 @@ enableGitInfo = false
   role = "Cientista do Solo / Pedometrista"
 
   # Organizations/Affiliations.
-  organization = "Universidade Tecnológica Federal do Paraná"
+  organization = "Universidade Tecnológica Federal do Paraná - Câmpus Santa Helena"
   organization_url = "http://portal.utfpr.edu.br/"
 
   gravatar = true  # Get your avatar from Gravatar.com? (true/false)
@@ -220,10 +220,10 @@ enableGitInfo = false
   #
   #   Full list: https://jpswalsh.github.io/academicons/
 
-  [[params.social]]
-    icon = "envelope"
-    icon_pack = "fa"
-    link = "mailto:alessandrorosa@utfpr.edu.br"
+#  [[params.social]]
+#    icon = "envelope"
+#    icon_pack = "fa"
+#    link = "mailto:alessandrorosa@utfpr.edu.br"
 
   [[params.social]]
     icon = "github-square"
@@ -260,10 +260,10 @@ enableGitInfo = false
     icon_pack = "fa"
     link = "//www.linkedin.com/in/alessandro-samuel-rosa-b16b2753/"
 
-  [[params.social]]
-    icon = "youtube-square"
-    icon_pack = "fa"
-    link = "//www.youtube.com/channel/UCwIjX9SEjcIEoytAbj53tvQ"
+#  [[params.social]]
+#    icon = "youtube-square"
+#    icon_pack = "fa"
+#    link = "//www.youtube.com/channel/UCwIjX9SEjcIEoytAbj53tvQ"
 
   [[params.social]]
     icon = "slideshare"
