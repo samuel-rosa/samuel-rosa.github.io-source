@@ -18,11 +18,27 @@ weight = 70
 
 ### Universidade Tecnológica Federal do Paraná
 
-- [Comissão Responsável para Viabilização da Abertura do Curso de Agronomia](https://www.dropbox.com/s/cs5w9m95fquskx2/Pilatti2018.pdf?dl=0)
+- [Comissão Responsável para Viabilização da Abertura do Curso de Agronomia][Pilatti2018]
+
+[Pilatti2018]: https://www.dropbox.com/s/cs5w9m95fquskx2/Pilatti2018.pdf?dl=0
+
+- [Equipe de Planejamento para o espaço do Hotel Tecnológico do Câmpus Santa Helena][Mucelin2018b]
+
+[Mucelin2018b]: https://www.dropbox.com/s/7x4wu8i1yz1h576/Mucelin2018b.pdf?dl=0
+
+- [Comissão para análise dos processos das pessoas com deficiência (PCDs)][Mucelin2018a]
+
+[Mucelin2018a]: https://www.dropbox.com/s/lvo4hx8pggtrvzx/Mucelin2018a.pdf?dl=0
+
+- [Comissão de Análise de Renda para o Câmpus Santa Helena da UTFPR][Mucelin2018]
+
+[Mucelin2018]: https://www.dropbox.com/s/3zl5wtj4fzlbb67/Mucelin2018.pdf?dl=0
 
 ### Sociedade Brasileira de Ciência do Solo
 
-- [Comissão de Pedometria](https://www.sbcs.org.br/comissoes-especializadas/divisao-1-solo-no-espaco-e-no-tempo/)
+- [Comissão de Pedometria][pedometria]
+
+[pedometria]: https://www.sbcs.org.br/comissoes-especializadas/divisao-1-solo-no-espaco-e-no-tempo/
 
 <!--
 Comentário
