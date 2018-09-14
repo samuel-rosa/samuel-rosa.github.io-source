@@ -26,6 +26,9 @@ weight = 70
 
 [Mucelin2018b]: https://www.dropbox.com/s/7x4wu8i1yz1h576/Mucelin2018b.pdf?dl=0
 
+- Conselho Municipal de Desenvolvimento Agroeconômico de Santa Helena
+
+<!--
 - [Comissão para análise dos processos das pessoas com deficiência (PCDs)][Mucelin2018a]
 
 [Mucelin2018a]: https://www.dropbox.com/s/lvo4hx8pggtrvzx/Mucelin2018a.pdf?dl=0
@@ -33,6 +36,7 @@ weight = 70
 - [Comissão de Análise de Renda para o Câmpus Santa Helena da UTFPR][Mucelin2018]
 
 [Mucelin2018]: https://www.dropbox.com/s/3zl5wtj4fzlbb67/Mucelin2018.pdf?dl=0
+-->
 
 ### Sociedade Brasileira de Ciência do Solo
 
