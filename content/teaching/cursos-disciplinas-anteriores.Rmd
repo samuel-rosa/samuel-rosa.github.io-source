@@ -13,6 +13,22 @@ output:
     toc: true
 ---
 
+## Universidade Tecnológica Federal do Paraná -- Câmpus Santa Helena
+
+**Disciplina** [Gestão da Inovação e Tecnologia](../2018-utfpr-cocic-gestao-inovacao-tecnologia)<br>
+**Unidade**: Coordenação de Ciência da Computação<br>
+**Código**: CC28B<br>
+**Carga horária**: 30 horas<br>
+**Nível**: Graduação<br>
+**Período**: Primeiro semestre de 2018<br>
+
+**Disciplina** [Empreendedorismo](../2018-utfpr-cocic-empreendedorismo)<br>
+**Unidade**: Coordenação de Ciência da Computação<br>
+**Código**: ED228A<br>
+**Carga horária**: 30 horas<br>
+**Nível**: Graduação<br>
+**Período**: Primeiro semestre de 2018<br>
+
 ## Universidade Federal de Santa Maria
 
 **Disciplina** [Modelagem Geoestatística do Ambiente](../2017-ufsm-sol-843)<br>

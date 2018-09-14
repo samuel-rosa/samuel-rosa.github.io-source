@@ -1,0 +1,77 @@
+---
+title: 'Introdução à Agronomia'
+summary: 'AG61E AG11'
+author: Alessandro Samuel-Rosa
+date: '2018-08-06'
+slug: 2018-utfpr-coagr-introducao-agronomia
+tags:
+  - ensino
+  - utfpr
+  - coagr
+output:
+  blogdown::html_page:
+    toc: true
+---
+
+# Descrição geral
+
+## Identificação
+
+**Instituição**: Universidade Tecnológica Federal do Paraná -- Câmpus Santa Helena<br>
+**Unidade**: Coordenação de Agronomia<br>
+**Código**: AG61E<br>
+**Carga horária**: 45 horas (AT = 2; AP = 1; APS = 3; ANP = 0; APCC = 0)<br>
+**Nível**: Graduação<br>
+**Instrutor**: Alessandro Samuel-Rosa<br>
+**AVEA**: http://moodle.utfpr.edu.br/course/view.php?id=8637
+
+## Calendário de aulas
+
+**Período**: 2018-II<br>
+**Horário**: Terça-feira, 07:30-10:00 (Aluno), Sexta-feira, 13:00-14:40 (Atendimento)<br>
+**Local**: Sala K02
+
+## Objetivos
+
+Desenvolver consciência crítica a respeito da escolha profissional e institucional, da importância do 
+conhecimento científico, e da função social da Universidade e do Engenheiro Agrônomo frente aos desafios 
+contemporâneos, especialmente o desenvolvimento rural sustentável. Conhecer a trajetória histórica da 
+agricultura e da Agronomia, as áreas de atuação do Engenheiro Agrônomo, a legislação pertinente à profissão, e 
+a realidade da agricultura nacional e regional.
+
+## Ementa
+
+Conceito, estrutura e inserção da Universidade na sociedade. Estrutura do curso de Agronomia. História da 
+agricultura e da Agronomia. A agricultura brasileira e paranaense. Legislação regulatória e perfil 
+profissional. Órgãos de classe. Produção de alimentos, técnicas agronômicas, sistemas de produção. A 
+importância da extensão e transferência de tecnologia para os produtores rurais.
+
+# Bibliografia 
+
+## Básica
+
+ABBOUD, A.C.S. **Introdução à Agronomia**. Rio de Janeiro, Editora Interciência, 2013. 644 p. ISBN 
+9788571933040.
+
+MAZOYER, M.; ROUDART, L. **História das agriculturas do mundo**: do neolítico à crise contemporânea. São Paulo:
+Editora UNESP, 2010. 568 p. ISBN 9788571399945.
+
+CONSELHO REGIONAL DE ENGENHARIA, ARQUITETURA E AGRONOMIA DO PARANÁ. **Coleção Cadernos do CREA-PR**: Cadernos 
+de Ética, números 1 ao 8. Curitiba: CREA-PR.
+
+## Bibliografia Complementar
+
+SANTOS, M.; SILVEIRA, M.L. **O Brasil**: território e sociedade no início do século XXI. Rio de Janeiro: 
+Record, 2017. 476 p. ISBN 9788501111616.
+
+CONSELHO REGIONAL DE ENGENHARIA, ARQUITETURA E AGRONOMIA DO PARANÁ. **Manual do profissional da engenharia, 
+arquitetura e agronomia**. Curitiba: CREA-PR, 2004. 321 p.
+
+SANTILLI, J. **Agrobiodiversidade e direito dos agricultores**. São Paulo: Editora Peirópolis, 2009. 520 p. 
+ISBN 9788575961575.
+
+SCHNEIDER, S. **A diversidade da agricultura familiar**. 2. ed. Porto Alegre: Editora da Universidade Federal 
+do Rio Grande do Sul, 2009. 296 p. ISBN 9788538600374.
+
+UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ. **UTFPR**: uma história de 100 anos. 1. ed. Curitiba, PR: UTFPR, 
+2010. 169 p. ISBN 9788570140623.

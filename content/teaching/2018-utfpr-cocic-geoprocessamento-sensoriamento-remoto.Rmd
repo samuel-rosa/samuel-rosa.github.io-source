@@ -1,0 +1,73 @@
+---
+title: 'Geoprocessamento e Sensoriamento Remoto'
+summary: 'OP2BA CC71'
+author: Alessandro Samuel-Rosa
+date: '2018-08-06'
+slug: 2018-utfpr-cocic-geoprocessamento-sensoriamento-remoto
+tags:
+  - ensino
+  - utfpr
+  - cocic
+output:
+  blogdown::html_page:
+    toc: true
+---
+
+# Descrição geral
+
+## Identificação
+
+**Instituição**: Universidade Tecnológica Federal do Paraná -- Câmpus Santa Helena<br>
+**Unidade**: Coordenação de Ciência da Computação<br>
+**Código**: OP2BA<br>
+**Carga horária**: 60 horas (AT = 2; AP = 2; APS = 4; ANP = 0; APCC = 0)<br>
+**Nível**: Graduação<br>
+**Instrutor**: Alessandro Samuel-Rosa<br>
+**AVEA**: http://moodle.utfpr.edu.br/course/view.php?id=8634
+
+## Calendário de aulas
+
+**Período**: 2018-II<br>
+**Horário**: Quarta-feira, 9:10-10:00 (Aula), Sexta-feira, 07:30-10:00 (Aluno), 13:00-14:40 (Atendimento)<br>
+**Local**: Sala L04
+
+## Objetivos
+
+Ao final da disciplina o discente compreenderá os princípios do geoprocessamento e do sensoriamento remoto, e
+terá a capacidade de manipular dados espaciais em sistemas de informação geográfica para a geração de produtos
+cartográficos.
+
+## Ementa
+
+Estudo da ciência cartográfica. Princípios do geoprocessamento. Bases do sensoriamento remoto. 
+Sistemas de informações geográficas. Aplicações.
+
+# Bibliografia 
+
+## Básica
+
+NOVO, Evlyn M. L. de Moraes. **Sensoriamento remoto**: princípios e aplicações. 4. ed. rev. São Paulo, SP: 
+Edgard Blücher, 2010. 387 p. ISBN 9788521205401.
+
+SILVA, Ardemirio de Barros. **Sistemas de informações geo-referenciadas**: conceitos e fundamentos. Campinas, 
+SP: UNICAMP, 2003. 236 p. ISBN 8526806491.
+
+FERREIRA, Marcos César. **Iniciação à análise geoespacial**: teoria, técnicas e exemplos para geoprocessamento.
+1. ed. São Paulo , SP: UNESP, 2014. 343 p. ISBN 9788539305377.
+
+## Bibliografia Complementar
+
+FLORENZANO, Teresa Gallotti. **Iniciação em sensoriamento remoto**. 3 ed. rev. e atual. São Paulo, SP: Oficina
+de Textos, 2011. 128 p. ISBN 9788579750168.
+
+MOLIN, José Paulo; AMARAL, Lucas Rios do; COLAÇO, André Freitas. **Agricultura de precisão**. 1. ed. São Paulo,
+SP: Oficina de Textos, 2015. 238 p. ISBN 9788579752131.
+
+TULER, Marcelo; SARAIVA, Sérgio. **Fundamentos de geodésia e cartografia**. Porto Alegre, RS: Bookman, 2016. 
+227 p. ISBN 9788582603604.
+
+GONZALEZ, Rafael C.; WOODS, Richard E. **Processamento digital de imagens**. 3. ed. São Paulo, SP: Pearson, 
+2010. xv, 624 p. ISBN 9788576054016.
+
+FITZ, Paulo Roberto. **Geoprocessamento sem complicação**. São Paulo, SP: Oficina de Textos, 2008. 160 p. 
+ISBN 9788586238826.

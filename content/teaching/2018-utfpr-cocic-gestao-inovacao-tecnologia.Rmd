@@ -17,7 +17,7 @@ output:
 
 ## Identificação
 
-**Instituição**: Universidade Tecnológica Federal do Paraná - Câmpus Santa Helena<br>
+**Instituição**: Universidade Tecnológica Federal do Paraná -- Câmpus Santa Helena<br>
 **Unidade**: Coordenação de Ciência da Computação<br>
 **Código**: CC28B<br>
 **Carga horária**: 30 horas (AT = 2; AP = 0; APS = 2; ANP = 0; APCC = 0)<br>
@@ -27,8 +27,8 @@ output:
 
 ## Calendário de aulas
 
-**Período**: 2019-I<br>
-**Horário**: Sexta-feira, 14:40-15:30 (Paluno), 15:50-17:30 (Aula)<br>
+**Período**: 2018-I<br>
+**Horário**: Sexta-feira, 14:40-15:30 (Atendimento), 15:50-17:30 (Aula)<br>
 **Local**: Sala E09
 
 ## Objetivos

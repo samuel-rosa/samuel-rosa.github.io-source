@@ -16,13 +16,17 @@ weight = 60
 
 +++
 
-### Universidade Tecnológica Federal do Paraná
+### Universidade Tecnológica Federal do Paraná -- Câmpus Santa Helena
 
+- [AG61E: Introdução à Agronomia](teaching/2018-utfpr-coagr-introducao-agronomia)
+
+- [OP2BA: Geoprocessamento e Sensoriamento Remoto](teaching/2018-utfpr-cocic-geoprocessamento-sensoriamento-remoto)
+
+<!--
 - [ED228A: Empreendedorismo](teaching/2018-utfpr-cocic-empreendedorimos)
 
 - [CC28B: Gestão da Inovação e Tecnologia](teaching/2018-utfpr-cocic-gestao-inovacao-tecnologia)
 
-<!--
 ### Universidade Federal de Santa Maria
 
 - [SOL 843: Tópicos em Ciência do Solo -- Modelagem Geoestatística do Ambiente](teaching/2017-ufsm-sol-843)
