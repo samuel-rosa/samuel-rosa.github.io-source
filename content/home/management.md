@@ -26,7 +26,13 @@ weight = 70
 
 [Mucelin2018b]: https://www.dropbox.com/s/7x4wu8i1yz1h576/Mucelin2018b.pdf?dl=0
 
-- Conselho Municipal de Desenvolvimento Agroeconômico de Santa Helena
+- [Conselho Municipal de Desenvolvimento Agroeconômico de Santa Helena][sh]
+
+[sh]: https://santahelena.atende.net/#!/tipo/inicial
+
+- [Comissão de Divulgação dos Cursos do Câmpus Santa Helena][Mucelin2018c]
+
+[Mucelin2018c]: https://www.dropbox.com/s/q7wnou5obn0oj0q/Mucelin2018c.pdf?dl=0
 
 <!--
 - [Comissão para análise dos processos das pessoas com deficiência (PCDs)][Mucelin2018a]
