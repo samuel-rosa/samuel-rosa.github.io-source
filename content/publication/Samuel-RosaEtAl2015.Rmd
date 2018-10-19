@@ -10,6 +10,7 @@ publication_types: ["2"]
 selected: true
 url_pdf: 'https://doi.org/10.1016/j.geoderma.2014.12.017'
 url_code: 'https://github.com/samuel-rosa/dnos-sm-rs-1stArticle'
+url_dataset: 'http://coral.ufsm.br/febr/catalog/ctb0003.html'
 header:
   image: 'headers/FIG5b.png'
 output: html_document
