@@ -22,6 +22,10 @@ weight = 70
 
 [Pilatti2018]: https://www.dropbox.com/s/cs5w9m95fquskx2/Pilatti2018.pdf?dl=0
 
+- [Substituto do Coordenador do Curso de Agronomia do Câmpus Santa Helena][Pilatti2018e]
+
+[Pilatti2018e]: https://www.dropbox.com/s/v97nq5wni4uei9u/Pilatti2018e.pdf?dl=0
+
 - [Equipe de Planejamento para o espaço do Hotel Tecnológico do Câmpus Santa Helena][Mucelin2018b]
 
 [Mucelin2018b]: https://www.dropbox.com/s/7x4wu8i1yz1h576/Mucelin2018b.pdf?dl=0
