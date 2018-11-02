@@ -54,6 +54,20 @@ weight = 70
 
 [pedometria]: https://www.sbcs.org.br/comissoes-especializadas/divisao-1-solo-no-espaco-e-no-tempo/
 
+### International Union of Soil Sciences
+
+- [Pedometrics Awards Committee][pedometricsawards]
+
+[pedometricsawards]: http://pedometrics.org/
+
+- [Pedometrics 2019 Scientific Committee][pedometrics2019]
+
+[pedometrics2019]: http://pedometrics.org/?page_id=648
+
+- [2019 Joint workshop for Digital Soil Mapping and GlobalSoilMap Scientific Committee][soilmapping2019]
+
+[soilmapping2019]: https://sites.google.com/view/mapsoil2019/committees/scientific-committee
+
 <!--
 Comentário
 -->
