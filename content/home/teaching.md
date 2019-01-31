@@ -16,6 +16,10 @@ weight = 60
 
 +++
 
+### Universidade Estadual de Campinas
+
+- [MDS para Agricultura de Precisão](teaching/2019-mds-para-agricultura-de-precisao)
+
 ### Universidade Tecnológica Federal do Paraná -- Câmpus Santa Helena
 
 - [AG61E: Introdução à Agronomia](teaching/2018-utfpr-coagr-introducao-agronomia)
