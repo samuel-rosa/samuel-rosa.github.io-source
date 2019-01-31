@@ -46,37 +46,32 @@ Os objetivos da oficina são os seguintes:
 ## Conteúdo
 
 1. Gênese e distribuição espacial do solo
-   1.1 Fatores de formação do solo: o modelo clorpt
-       - Derivation of state factor equations of soils and ecosystems ([Jenny, 1961][jenny])
-   1.2 Processos gerais de formação do solo: adições, perdas, translocações e transformações
-       - Outline of a generalized theory of soil genesis ([Simonson, 1959][simonson])
-   1.3 Autocorrelação espacial: semivariograma
-       - How geostatistics can help you ([Oliver e Webster, 1991][oliver])
+    + Fatores de formação do solo: o modelo clorpt
+        - Derivation of state factor equations of soils and ecosystems ([Jenny, 1961][jenny])
+    + Processos gerais de formação do solo: adições, perdas, translocações e transformações
+        - Outline of a generalized theory of soil genesis ([Simonson, 1959][simonson])
+    + Autocorrelação espacial: semivariograma
+        - How geostatistics can help you ([Oliver e Webster, 1991][oliver])
 2. Covariáveis ambientais
-   2.1 Indicadores dos fatores de formação do solo
-       - Do more detailed environmental covariates deliver more accurate soil maps? ([Samuel-Rosa et al., 2015][samuelrosa])
-   2.2 Clima e material de origem: mapas meteorológico e geológico
-   2.3 Relevo: modelo digital de elevação e atributos derivados
-   2.4 Organismos:
-       a. Vegetação: imagens de orbitais e suborbitais
-       b. Ação antrópica: mapas de manejo do solo
-   2.5 Solo: sensores proximais mapas de propriedades do solo
+    + Indicadores dos fatores de formação do solo
+        - Do more detailed environmental covariates deliver more accurate soil maps? ([Samuel-Rosa et al., 2015][samuelrosa])
+    + Clima e material de origem: mapas meteorológico e geológico
+    + Relevo: modelo digital de elevação e atributos derivados
+    + Organismos: vegetação (imagens de orbitais e suborbitais) e ação antrópica (mapas de manejo do solo)
+    + Solo: sensores proximais mapas de propriedades do solo
 3. Aprendizado de máquina
-   3.1 Correlação ambiental
-       - Soil attribute prediction using terrain analysis ([Moore et al., 1993][moore])
-   3.2 Métodos de aprendizado de máquina:
-       a. Regressão linear múltipla
-       b. Árvore de regressão
-          - Induction of decision trees ([Quinlan, 1986][quinlan])
-       c. Floresta aleatória
-          - Random forests ([Breiman, 2001][breiman])
+    + Correlação ambiental
+        - Soil attribute prediction using terrain analysis ([Moore et al., 1993][moore])
+    + Métodos de aprendizado de máquina: regressão linear múltipla, árvore de regressão e floresta aleatória
+        - Induction of decision trees ([Quinlan, 1986][quinlan])
+        - Random forests ([Breiman, 2001][breiman])
 4. Modelo linear misto de variação espacial
-   4.1 Efeitos fixos e aleatórios: o modelo scorpan
-       - On digital soil mapping ([McBratney et al., 2003][mcbratney])
-   4.2 Calibração, predição e validação
-       - On spatial prediction of soil properties in the presence of a spatial trend: the empirical best linear
-         unbiased predictor (E-BLUP) with REML ([Lark et al., 2006][lark])
-       - Sampling for validation of digital soil maps ([Brus et al., 2011][brus])
+    + Efeitos fixos e aleatórios: o modelo scorpan
+        - On digital soil mapping ([McBratney et al., 2003][mcbratney])
+    + Calibração, predição e validação
+        - On spatial prediction of soil properties in the presence of a spatial trend: the empirical best linear
+          unbiased predictor (E-BLUP) with REML ([Lark et al., 2006][lark])
+        - Sampling for validation of digital soil maps ([Brus et al., 2011][brus])
 5. Atividades práticas
 
 [jenny]: https://doi.org/10.2136/sssaj1961.03615995002500050023x
