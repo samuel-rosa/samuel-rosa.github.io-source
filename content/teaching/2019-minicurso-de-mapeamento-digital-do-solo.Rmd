@@ -1,0 +1,81 @@
+---
+title: 'Minicurso de Mapeamento Digital do Solo'
+author: Alessandro Samuel-Rosa
+date: '2019-09-08'
+slug: minicurso-mds
+tags:
+  - ensino
+  - mds
+  - minicurso
+output:
+  blogdown::html_page:
+    toc: true
+---
+
+# Apresentação
+
+O _Minicurso de Mapeamento Digital do Solo_ consiste numa atividade presencial de capacitação com duração de __oito horas__. Podem participar do minicurso estudantes de graduação, pós graduação e, inclusive, profissionais de áreas como as ciência agrárias, geociências e ciências biológicas. Os participantes devem ter conhecimentos básicos de ciência do solo, sistemas de informação geográfica e estatística.
+
+__Carga horária__: 8 horas<br>
+__Número__: até 20 pessoas<br>
+__Modalidade__: presencial<br>
+__Público__: graduação, pós-graduação e profissionais<br>
+__Áreas__: ciência agrárias, geociências e ciências biológicas<br>
+__Pré-requisitos__: conhecimento ciência do solo, sistemas de informação geográfica e estatística<br>
+__Instrutor__: Alessandro Samuel-Rosa<br>
+
+# Objetivos
+
+Os objetivos da oficina são os seguintes:
+
+* Revisar os fundamentos da formação do solo e os fatores ambientais que interferem sobre ela em áreas de 
+  produção agrícola.
+* Conhecer as bases do mapeamento digital do solo.
+* Compreender como covariáveis ambientais podem ser usadas, em modelos de predição espacial do solo, para 
+  representar os fatores ambientais que interferem sobre a formação do solo em áreas de produção agrícola.
+* Conhecer técnicas avançadas de aprendizado de máquina que podem ser utilizadas para a predição espacial do 
+  solo na agricultura de precisão.
+* Explorar a validação cruzada como técnica de avaliação da qualidade das predições espaciais do solo na 
+  agricultura de precisão.
+
+# Temas de estudo
+
+1. Gênese e distribuição espacial do solo
+    + Fatores de formação do solo: o modelo clorpt
+        - Derivation of state factor equations of soils and ecosystems ([Jenny, 1961][jenny])
+    + Processos gerais de formação do solo: adições, perdas, translocações e transformações
+        - Outline of a generalized theory of soil genesis ([Simonson, 1959][simonson])
+    + Autocorrelação espacial: semivariograma
+        - How geostatistics can help you ([Oliver e Webster, 1991][oliver])
+2. Covariáveis ambientais
+    + Indicadores dos fatores de formação do solo
+        - Do more detailed environmental covariates deliver more accurate soil maps? ([Samuel-Rosa et al., 2015][samuelrosa])
+    + Clima e material de origem: mapas meteorológico e geológico
+    + Relevo: modelo digital de elevação e atributos derivados
+    + Organismos: vegetação (imagens de orbitais e suborbitais) e ação antrópica (mapas de manejo do solo)
+    + Solo: sensores proximais mapas de propriedades do solo
+3. Aprendizado de máquina
+    + Correlação ambiental
+        - Soil attribute prediction using terrain analysis ([Moore et al., 1993][moore])
+    + Métodos de aprendizado de máquina: regressão linear múltipla, árvore de regressão e floresta aleatória
+        - Induction of decision trees ([Quinlan, 1986][quinlan])
+        - Random forests ([Breiman, 2001][breiman])
+4. Modelo linear misto de variação espacial
+    + Efeitos fixos e aleatórios: o modelo scorpan
+        - On digital soil mapping ([McBratney et al., 2003][mcbratney])
+    + Calibração, predição e validação
+        - On spatial prediction of soil properties in the presence of a spatial trend: the empirical best linear
+          unbiased predictor (E-BLUP) with REML ([Lark et al., 2006][lark])
+        - Sampling for validation of digital soil maps ([Brus et al., 2011][brus])
+5. Atividades práticas
+
+[jenny]: https://doi.org/10.2136/sssaj1961.03615995002500050023x
+[simonson]: http://www.evsc.virginia.edu/~alm7d/soils/handouts/simonson.pdf
+[oliver]: https://doi.org/10.1111/j.1475-2743.1991.tb00876.x
+[samuelrosa]: https://doi.org/10.1016/j.geoderma.2014.12.017
+[moore]: https://doi.org/10.2136/sssaj1993.03615995005700020026x
+[quinlan]: https://link.springer.com/article/10.1007%2FBF00116251
+[breiman]: https://link.springer.com/article/10.1023%2FA%3A1010933404324
+[mcbratney]: https://linkinghub.elsevier.com/retrieve/pii/S0016706103002234
+[lark]: https://doi.org/10.1111/j.1365-2389.2005.00768.x
+[brus]: https://doi.org/10.1111/j.1365-2389.2011.01364.x
