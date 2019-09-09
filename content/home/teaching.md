@@ -16,6 +16,12 @@ weight = 60
 
 +++
 
+### Mapeamento Digital do Solo
+
+- [Minicurso de Mapeamento Digital do Solo](teaching/minicurso-mds)
+  + 8 horas de atividades presenciais
+  + Até 20 participantes usando QGIS
+
 ### Universidade Estadual de Campinas
 
 - [MDS para Agricultura de Precisão](teaching/2019-mds-para-agricultura-de-precisao)

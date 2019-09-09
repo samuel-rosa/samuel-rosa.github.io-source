@@ -1,0 +1,71 @@
+---
+title: 'Minicurso de Mapeamento Digital do Solo'
+author: Alessandro Samuel-Rosa
+date: '2019-09-21'
+slug: minicurso-mds
+tags:
+  - ensino
+  - mds
+  - minicurso
+output:
+  blogdown::html_page:
+    toc: true
+---
+
+# Resumo
+
+__Carga horária__: 8 horas<br>
+__Participantes__: até 20 pessoas<br>
+__Modalidade__: presencial<br>
+__Público__: graduação, pós-graduação e profissionais<br>
+__Áreas__: ciências agrárias, geociências e ciências biológicas<br>
+__Pré-requisitos__: conhecimento básico de ciência do solo, sistemas de informação geográfica e estatística<br>
+__Softwares__: R e QGIS<br>
+
+# Apresentação
+
+O ___Minicurso de Mapeamento Digital do Solo___ consiste numa atividade presencial de capacitação com duração de oito horas. A maior parte do minicurso é dedicada a atividades práticas de geoprocessamento de dados para predição espacial de variáveis quantitativas e qualitativas do solo usando dados abertos e _softwares_ livres. Podem participar do minicurso estudantes de graduação, pós-graduação e profissionais de áreas como as ciências agrárias, geociências e ciências biológicas. Os participantes devem ter conhecimentos básicos de ciência do solo, sistemas de informação geográfica e estatística. Ao final do curso, os participantes são capazes de produzir mapas de variáveis quantitativas e qualitativas de solo e avaliar as estatísticas de validação e incerteza desses mapas.
+
+As atividades desenvolvidas durante o minicurso envolvem:
+
+* Revisar os fundamentos da formação do solo;
+* Conhecer das bases do mapeamento digital do solo;
+* Análisar o uso de covariáveis espaciais para representar os fatores de formação do solo;
+* Conhecer modelos estatísticos usados para predição espacial do solo; e
+* Explorar medidas de validação e incerteza para avaliar a qualidade de predições espaciais do solo.
+
+# Infraestrutura
+
+O minicurso está estruturado de maneira a exigir o mínimo em termos de infraestrutura de dados, equipamentos e _softwares_. Isso permite a participação de pessoas com formação e experiência diversas, mantendo a demanda por recursos para sua realização bastante baixa.
+
+Os utilizados no minicurso estão prontos para uso. Trata-se de um conjunto de dados coletado na bacia de captação de um dos reservatórios de abastecimento de água da cidade de Santa Maria, Rio Grande do Sul, Brasil. Os participantes precisam apenas [descarregá-los][dados] do servidor onde estão hospedados. Eles estão organizados usando a seguinte estrutura de diretórios:
+
+    minicurso-mds/
+    - raster/             # diretório contendo dados matriciais
+    - software/           # instaladores do R e QGIS; algoritmo de processamento R
+    - vector/             # diretório contendo dados vetoriais
+    - minicurso-mds.qgz   # arquivo de projeto do QGIS
+
+O diretório `software` indicado acima contém os instaladores -- Windows 32 e 64 bits -- dos dois _softwares_ a serem utilizados no minicurso. São eles o [R][r] e o [QGIS][qgis]. Ambos podem ser instalados na maioria dos sistemas operacionais e os instaladores de suas versões mais recentes também podem ser descarregados gratuitamente de seus respectivos portais na web. A instalação desses _softwares_ e a preparação do ambiente computacional devem ser realizadas pelos participantes antes do minicurso. Um [guia detalhado][manual] de como isso deve ser feito está disponível.
+
+# Leitura recomendada
+
+Para maximizar o aproveitamento do minicurso, os participantes são encorajados a estudar algumas publicações importantes sobre mapeamento digital do solo. Dentre elas estão:
+
+* _On digital soil mapping_ ([McBratney et al., 2003][mcbratney])
+* _Soil attribute prediction using terrain analysis_ ([Moore et al., 1993][moore])
+* _Do more detailed environmental covariates deliver more accurate soil maps?_ ([Samuel-Rosa et al., 2015][samuelrosa])
+* _Derivation of state factor equations of soils and ecosystems_ ([Jenny, 1961][jenny])
+* _Outline of a generalized theory of soil genesis_ ([Simonson, 1959][simonson])
+* _Sampling for validation of digital soil maps_ ([Brus et al., 2011][brus])
+
+[simonson]: http://www.evsc.virginia.edu/~alm7d/soils/handouts/simonson.pdf
+[samuelrosa]: https://doi.org/10.1016/j.geoderma.2014.12.017
+[jenny]: https://doi.org/10.2136/sssaj1961.03615995002500050023x
+[mcbratney]: https://linkinghub.elsevier.com/retrieve/pii/S0016706103002234
+[moore]: https://doi.org/10.2136/sssaj1993.03615995005700020026x
+[brus]: https://doi.org/10.1111/j.1365-2389.2011.01364.x
+[dados]: https://alessandrorosa.ocloud.de/index.php/s/DtqS8mVMPCWVpMf/download
+[r]: https://www.r-project.org/
+[qgis]: https://qgis.org/en/site/
+[manual]: https://docs.google.com/document/d/1TXELVBAcTrPtKVOL7UucCHGUr9A9n4BWGNe78G_6yR0/edit?usp=sharing
