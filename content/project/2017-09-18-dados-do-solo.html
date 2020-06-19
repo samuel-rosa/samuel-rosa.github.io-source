@@ -1,24 +1,99 @@
 ---
-title: Dados do Solo
+title: Repositório Brasileiro Livre para Dados Abertos do Solo (FEBR)
 author: Alessandro Samuel-Rosa
-summary: "A ciência do solo já produziu um volume incomensurável de dados."
+# summary: "A ciência do solo já produziu um volume incomensurável de dados."
 date: '2017-09-18'
-slug: dados-do-solo
+slug: febr
 categories: []
 tags:
   - dados-legados
   - repositório
   - base-de-dados
+output:
+  blogdown::html_page:
+    toc: true
 ---
 
 
-
-<p>A pesquisa pedológica já produziu um volume incomensurável de dados do solo. Muitos desses dados já podem ter sido perdidos para sempre pela falta de infraestuturas para seu armazenamento e distribuição. A situação não é diferente com os milhares de novos registros produzidos a cada dia que passa. Preocupado com isso, venho desenvolvendo atividades diversas relacionadas à construção de tais infraestruturas, o que deu origem ao projeto</p>
+<div id="TOC">
 <ul>
-<li><strong><em>Infraestruturas públicas de dados do solo – da concepção à distribuição</em></strong></li>
+<li><a href="#quero-compartilhar-dados">Quero Compartilhar Dados</a></li>
+<li><a href="#estou-procurando-dados">Estou Procurando Dados</a></li>
+<li><a href="#quero-participar-do-projeto">Quero Participar do Projeto</a></li>
 </ul>
-<p>Atualmente, as principais atividades desse projeto são:</p>
-<ol style="list-style-type: decimal">
-<li>Controle de qualidade do Sistema de Informação de Solos Brasileiros (<a href="https://www.bdsolos.cnptia.embrapa.br/consulta_publica.html">link</a>);</li>
-<li>Construção da Base de Dados Brasileira de Ferro do Solo (<a href="http://coral.ufsm.br/febr/">link</a>)</li>
-</ol>
+</div>
+
+<div id="quero-compartilhar-dados" class="section level1">
+<h1>Quero Compartilhar Dados</h1>
+<p>Se você é um produtor de dados do solo e chegou até esta página, então é porque você está interessando em compartilhar os dados que produziu em seus estudos. Você quer ser um provedor de dados!</p>
+<blockquote>
+<p>Antes de continuar, certifique-se de que conhece a <a href="https://docs.google.com/document/d/11c0HzGdT51xPEc6V7WLqTaOjX6AAfsZC9O9uMxTcmW0/edit?usp=sharing">política de dados</a> do FEBR!</p>
+</blockquote>
+<p>Com o FEBR, ficou muito fácil compartilhar dados do solo. São apenas duas etapas. Primeiro você organiza os dados em uma <a href="https://docs.google.com/spreadsheets/d/1rXIiT1zSYhFegSdAvE0yJX16q-bvXVNpYIYdd5YgjhI/edit?usp=sharing">planilha eletrônica</a> no formato XLSX. Ao fazê-lo, você só precisa seguir três regras bastante simples:</p>
+<ul>
+<li>Forneça todos os dados de identificação do conjunto de dados:
+<ul>
+<li>Use a aba <code>identificacao</code> para registrar dados como título, autoria, área do conhecimento, licença de uso,
+fontes de financiamento e publicações em que os dados foram usados;</li>
+</ul></li>
+<li>Descreva os métodos analíticos usados para determinar cada uma das variáveis:
+<ul>
+<li>Quando mais detalhes metodológicos forem registrados na aba <code>metadado</code>, mais fácil será para terceiros
+decidirem se e como utilizar os dados que você produziu;</li>
+</ul></li>
+<li>Organize os dados com os registros nas linhas e as variáveis nas colunas:
+<ul>
+<li>Para evitar repetição de dados, organize aqueles relativos aos locais de observação e amostragem
+(coordenadas, data, classe taxonômica, uso da terra etc) na aba <code>observacao</code>, e os dados analíticos das
+camadas amostradas na aba <code>camada</code>.</li>
+</ul></li>
+</ul>
+<p>A segunda etapa consiste em carreguar a planilha eletrônica com os dados para o <a href="https://cloud.utfpr.edu.br/index.php/s/Eh0FQpm9YfHYfLX">servidor do FEBR</a>. Se a planilha eletrônica não apresentar nenhuma inconsistência, ela estará disponível ao público em poucos dias. Simples assim!</p>
+<p>
+<button onclick="window.open('https://docs.google.com/spreadsheets/d/1rXIiT1zSYhFegSdAvE0yJX16q-bvXVNpYIYdd5YgjhI','_blank');" type="button">
+Descarregar modelo de planilha XLSX
+</button>
+<button onclick="window.open('https://cloud.utfpr.edu.br/index.php/s/Eh0FQpm9YfHYfLX','_blank');" type="button">
+Acessar página de carregamento de dados
+</button>
+</p>
+<p>Caso você queira compartilhar um grande volume de dados, ou muitos conjuntos de dados de uma só vez, entre em <a href="../../#contact">contato</a> conosco para que possamos viabilizar uma solução apropriada para seu caso.</p>
+<hr>
+</div>
+<div id="estou-procurando-dados" class="section level1">
+<h1>Estou Procurando Dados</h1>
+<p>Se você é um usuário de dados do solo, então chegou ao lugar certo. O FEBR é o maior repositório de dados abertos do solo do Brasil. Aqui você encontra dados das mais variadas propriedades do solo dos mais diversos locais do país. Dados que estão abertos para reúso!</p>
+<blockquote>
+<p>Se você ainda não o fez, certifique-se de que conhece a <a href="https://docs.google.com/document/d/11c0HzGdT51xPEc6V7WLqTaOjX6AAfsZC9O9uMxTcmW0/edit?usp=sharing">política de dados</a> do FEBR!</p>
+</blockquote>
+<p>Encontrar os dados de que que você precisa é muito fácil. Você pode iniciar navegando pelo <a href="https://cloud.utfpr.edu.br/index.php/apps/onlyoffice/s/Df6dhfzYJ1DDeso?fileId=27730047">índice</a> de conjuntos de dados até encontrar os dados para a sua área de interesse. Basta utilizar a URL associada ao conjunto de dados para acessar o diretório online com os dados nos formatos CSV e XLSX. Caso você seja um usuário do R, então poderá usar o <a href="https://cran.r-project.org/web/packages/febr/index.html">pacote</a> <code>febr</code> para descarregar o conjunto de dados diretamente no R. Basta você utilizar o código alfanumérico do conjunto de dados do seu interesse.</p>
+<p>
+<button onclick="window.open('https://cloud.utfpr.edu.br/index.php/s/JDcb8XBvkpQeyXm','_blank');" type="button">
+Descarregar índice de conjuntos de dados
+</button>
+<button onclick="window.open('https://cran.r-project.org/web/packages/febr/index.html','_blank');" type="button">
+Acessar página do pacote febr para R
+</button>
+</p>
+<p>Em breve teremos novos serviços web para busca e acesso aos conjunto de dados do solo publicados no FEBR.</p>
+<hr>
+</div>
+<div id="quero-participar-do-projeto" class="section level1">
+<h1>Quero Participar do Projeto</h1>
+<p>Existem muitas maneiras de participar do projeto do FEBR.</p>
+<ul>
+<li>Codificação e descrição de métodos analíticos:
+<ul>
+<li>Desenvolvimento e consolidação de um <a href="https://docs.google.com/spreadsheets/d/1Dalqi5JbW4fg9oNkXw5TykZTA39pR5GezapVeV0lJZI/edit">sistema padronizado</a> de identificação dos métodos de
+análise de solo usados no Brasil, com o fim de estabelecer rotinas de harmonização de dados;</li>
+</ul></li>
+<li>Curadoria de conjuntos de dados:
+<ul>
+<li>Resgate e revisão de dados de conjuntos de dados produzidos nas século passado, incluindo estratégias de
+estimativa de coordenadas espaciais, possibilitando o uso dos dados para aplicações espaciais de larga
+escala.</li>
+</ul></li>
+</ul>
+<hr>
+<p><strong><em>Aviso legal:</em></strong> <em>Usando os serviços web do FEBR, o usuário aceita a <a href="https://docs.google.com/document/d/11c0HzGdT51xPEc6V7WLqTaOjX6AAfsZC9O9uMxTcmW0/edit?usp=sharing">política de dados</a> do FEBR na íntegra. Para reconhecer os cientistas e/ou organizações que forneceram dados, o FEBR solicita que os usuários de dados incluam uma citação bibliográfica, para todos os dados fornecidos pelo FEBR, em produtos, websites e publicações.</em></p>
+</div>
