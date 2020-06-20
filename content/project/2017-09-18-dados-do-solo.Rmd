@@ -25,7 +25,7 @@ Com o FEBR, ficou muito fácil compartilhar dados do solo. São apenas duas etap
 * Forneça todos os dados de identificação do conjunto de dados:
   + Use a aba `identificacao` para registrar dados como título, autoria, área do conhecimento, licença de uso, 
     fontes de financiamento e publicações em que os dados foram usados;
-* Descreva os métodos analíticos usados para determinar cada uma das variáveis:
+* Descreva os métodos usados para produzir os dados de cada uma das variáveis:
   + Quando mais detalhes metodológicos forem registrados na aba `metadado`, mais fácil será para terceiros
     decidirem se e como utilizar os dados que você produziu;
 * Organize os dados com os registros nas linhas e as variáveis nas colunas:
@@ -50,14 +50,14 @@ Se você é um usuário de dados do solo, então chegou ao lugar certo. O FEBR �
 
 > Se você ainda não o fez, certifique-se de que conhece a [política de dados][politica] do FEBR!
 
-Encontrar os dados de que que você precisa é muito fácil. Você pode iniciar navegando pelo [índice][indice] de conjuntos de dados até encontrar os dados para a sua área de interesse. Basta utilizar a URL associada ao conjunto de dados para acessar o diretório online com os dados nos formatos CSV e XLSX. Caso você seja um usuário do R, então poderá usar o [pacote][pacote] `febr` para descarregar o conjunto de dados diretamente no R. Basta você utilizar o código alfanumérico do conjunto de dados do seu interesse.
+Encontrar os dados de que que você precisa é muito fácil. Você pode iniciar navegando pelo [índice][indice] de conjuntos de dados até encontrar os dados de sua área de interesse. Feito isso, basta utilizar a URL associada ao conjunto de dados para acessar o diretório online com os dados nos formatos CSV e XLSX. Caso você seja um usuário do R, então poderá usar o [pacote][pacote] `febr` para descarregar o conjunto de dados diretamente no R. Basta você utilizar o código alfanumérico do conjunto de dados de seu interesse.
 
 <p>
 <button onclick="window.open('https://cloud.utfpr.edu.br/index.php/s/JDcb8XBvkpQeyXm','_blank');" type="button">Descarregar índice de conjuntos de dados</button>
 <button onclick="window.open('https://cran.r-project.org/web/packages/febr/index.html','_blank');" type="button">Acessar página do pacote febr para R</button>
 </p>
 
-Em breve teremos novos serviços web para busca e acesso aos conjunto de dados do solo publicados no FEBR.
+Você também pode estar interessado no [super conjunto de dados][superconjunto] que publicamos periodicamente a partir do processamento (padronização e harmonização) de todos os conjuntos de dados publicados no FEBR.
 
 <hr> 
 
@@ -84,3 +84,4 @@ ___Aviso legal:___ _Usando os serviços web do FEBR, o usuário aceita a [polít
 [indice]: https://cloud.utfpr.edu.br/index.php/apps/onlyoffice/s/Df6dhfzYJ1DDeso?fileId=27730047
 [pacote]: https://cran.r-project.org/web/packages/febr/index.html
 [codificacao]: https://docs.google.com/spreadsheets/d/1Dalqi5JbW4fg9oNkXw5TykZTA39pR5GezapVeV0lJZI/edit
+[superconjunto]: https://cloud.utfpr.edu.br/index.php/s/nEXaoXIE0nZ1AqG
