@@ -1,7 +1,6 @@
 ---
 title: Repositório Brasileiro Livre para Dados Abertos do Solo (FEBR)
 author: Alessandro Samuel-Rosa
-# summary: "A ciência do solo já produziu um volume incomensurável de dados."
 date: '2017-09-18'
 slug: febr
 categories: []
@@ -9,6 +8,7 @@ tags:
   - dados-legados
   - repositório
   - base-de-dados
+  - dados-abertos
 output:
   blogdown::html_page:
     toc: true
@@ -36,7 +36,7 @@ output:
 <li>Use a aba <code>identificacao</code> para registrar dados como título, autoria, área do conhecimento, licença de uso,
 fontes de financiamento e publicações em que os dados foram usados;</li>
 </ul></li>
-<li>Descreva os métodos analíticos usados para determinar cada uma das variáveis:
+<li>Descreva os métodos usados para produzir os dados de cada uma das variáveis:
 <ul>
 <li>Quando mais detalhes metodológicos forem registrados na aba <code>metadado</code>, mais fácil será para terceiros
 decidirem se e como utilizar os dados que você produziu;</li>
@@ -66,7 +66,7 @@ Acessar página de carregamento de dados
 <blockquote>
 <p>Se você ainda não o fez, certifique-se de que conhece a <a href="https://docs.google.com/document/d/11c0HzGdT51xPEc6V7WLqTaOjX6AAfsZC9O9uMxTcmW0/edit?usp=sharing">política de dados</a> do FEBR!</p>
 </blockquote>
-<p>Encontrar os dados de que que você precisa é muito fácil. Você pode iniciar navegando pelo <a href="https://cloud.utfpr.edu.br/index.php/apps/onlyoffice/s/Df6dhfzYJ1DDeso?fileId=27730047">índice</a> de conjuntos de dados até encontrar os dados para a sua área de interesse. Basta utilizar a URL associada ao conjunto de dados para acessar o diretório online com os dados nos formatos CSV e XLSX. Caso você seja um usuário do R, então poderá usar o <a href="https://cran.r-project.org/web/packages/febr/index.html">pacote</a> <code>febr</code> para descarregar o conjunto de dados diretamente no R. Basta você utilizar o código alfanumérico do conjunto de dados do seu interesse.</p>
+<p>Encontrar os dados de que que você precisa é muito fácil. Você pode iniciar navegando pelo <a href="https://cloud.utfpr.edu.br/index.php/apps/onlyoffice/s/Df6dhfzYJ1DDeso?fileId=27730047">índice</a> de conjuntos de dados até encontrar os dados de sua área de interesse. Feito isso, basta utilizar a URL associada ao conjunto de dados para acessar o diretório online com os dados nos formatos CSV e XLSX. Caso você seja um usuário do R, então poderá usar o <a href="https://cran.r-project.org/web/packages/febr/index.html">pacote</a> <code>febr</code> para descarregar o conjunto de dados diretamente no R. Basta você utilizar o código alfanumérico do conjunto de dados de seu interesse.</p>
 <p>
 <button onclick="window.open('https://cloud.utfpr.edu.br/index.php/s/JDcb8XBvkpQeyXm','_blank');" type="button">
 Descarregar índice de conjuntos de dados
@@ -75,23 +75,27 @@ Descarregar índice de conjuntos de dados
 Acessar página do pacote febr para R
 </button>
 </p>
-<p>Em breve teremos novos serviços web para busca e acesso aos conjunto de dados do solo publicados no FEBR.</p>
+<p>Você também pode estar interessado no <a href="https://cloud.utfpr.edu.br/index.php/s/nEXaoXIE0nZ1AqG">super conjunto de dados</a> que publicamos periodicamente a partir do processamento (padronização e harmonização) de todos os conjuntos de dados publicados no FEBR.</p>
 <hr>
 </div>
 <div id="quero-participar-do-projeto" class="section level1">
 <h1>Quero Participar do Projeto</h1>
-<p>Existem muitas maneiras de participar do projeto do FEBR.</p>
+<p>Existem muitas maneiras de participar do projeto do FEBR. Você pode atuar em diferentes frentes de trabalho, tanto promovendo a melhoria da qualidade dos dados publicados no FEBR, como auxiliando no desenvolvimento dos métodos e técnicas utilizados no gerenciamento e tratamento dos dados. Algumas dessas frentes de trabalho são brevemente descritas a seguir.</p>
 <ul>
-<li>Codificação e descrição de métodos analíticos:
+<li>Compilação de dados abertos:
 <ul>
-<li>Desenvolvimento e consolidação de um <a href="https://docs.google.com/spreadsheets/d/1Dalqi5JbW4fg9oNkXw5TykZTA39pR5GezapVeV0lJZI/edit">sistema padronizado</a> de identificação dos métodos de
-análise de solo usados no Brasil, com o fim de estabelecer rotinas de harmonização de dados;</li>
+<li>Resgate de dados produzidos no século passado, especialmente de áreas do território brasileiro ainda
+subrepresentadas no FEBR;</li>
 </ul></li>
 <li>Curadoria de conjuntos de dados:
 <ul>
-<li>Resgate e revisão de dados de conjuntos de dados produzidos nas século passado, incluindo estratégias de
-estimativa de coordenadas espaciais, possibilitando o uso dos dados para aplicações espaciais de larga
-escala.</li>
+<li>Revisão de dados de conjuntos de dados publicados no FEBR, incluindo estratégias de estimativa de
+coordenadas geográficas para viabilizar o uso dos dados em aplicações espaciais;</li>
+</ul></li>
+<li>Codificação e descrição de métodos analíticos:
+<ul>
+<li>Desenvolvimento e consolidação de sistema de identificação de métodos de análise de solo para fins de
+harmonização de dados de diferentes conjuntos de dados;</li>
 </ul></li>
 </ul>
 <hr>
