@@ -14,7 +14,7 @@ output:
     toc: true
 ---
 
-# Quero Compartilhar Dados
+## Quero Compartilhar Dados
 
 Se você é um produtor de dados do solo e chegou até esta página, então é porque você está interessando em compartilhar os dados que produziu em seus estudos. Você quer ser um provedor de dados!
 
@@ -44,7 +44,7 @@ Caso você queira compartilhar um grande volume de dados, ou muitos conjuntos de
 
 <hr> 
 
-# Estou Procurando Dados
+## Estou Procurando Dados
 
 Se você é um usuário de dados do solo, então chegou ao lugar certo. O FEBR é o maior repositório de dados abertos do solo do Brasil. Aqui você encontra dados das mais variadas propriedades do solo dos mais diversos locais do país. Dados que estão abertos para reúso!
 
@@ -61,7 +61,7 @@ Você também pode estar interessado no [super conjunto de dados][superconjunto]
 
 <hr> 
 
-# Quero Participar do Projeto
+## Quero Participar do Projeto
 
 Existem muitas maneiras de participar do projeto do FEBR. Você pode atuar em diferentes frentes de trabalho, tanto promovendo a melhoria da qualidade dos dados publicados no FEBR, como auxiliando no desenvolvimento dos métodos e técnicas utilizados no gerenciamento e tratamento dos dados. Algumas dessas frentes de trabalho são brevemente descritas a seguir.
 
