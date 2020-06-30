@@ -11,7 +11,7 @@ title = "A. Samuel-Rosa"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; 2018 A. Samuel-Rosa"
+copyright = "&copy; 2020 A. Samuel-Rosa"
 
 theme = "hugo-academic"
 enableEmoji = true
@@ -60,7 +60,7 @@ enableGitInfo = false
   gravatar = true  # Get your avatar from Gravatar.com? (true/false)
   avatar = ""  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "alessandrorosa@utfpr.edu.br"
-  address = "Universidade Tecnológica Federal do Paraná, Bloco J, Santa Helena (PR), 85892-000, Brasil"
+  address = "Universidade Tecnológica Federal do Paraná, Santa Helena (PR), 85892-000, Brasil"
   office_hours = "Segunda à sexta das 7:30 às 17:30 (ou via email)"
   calendar = "https://goo.gl/KHqSed"
   phone = "+55 (45) 3268-8819"
